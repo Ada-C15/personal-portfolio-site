@@ -1,14 +1,25 @@
-.nav-checkbox{
-    display: none;
-  }
-  .nav-button{
-    display: none;
-  }
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+}
+
   
-  .header-img {
-      object-fit: contain;
-      width: 20rem;
-      display: inline-block;
+.header-img {
+      width: 80vw;
+      display: block;
   }
   .nav{
       display: block;
@@ -49,7 +60,7 @@
       display: inline-block;
       object-fit: cover;
   }
-  .header-container{
+.header-container{
       display: block;
       width: 100%;
       position: absolute;
@@ -59,6 +70,10 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+      background-color: rgba(255, 255, 255, .05);
+      background-image: url('../img/derailment1.jpg');
+      background-size: cover;
+      box-shadow: inset 0px 0px 277px 3px #ffffff;
   }
   .beast-container{
       width: 30vw;
