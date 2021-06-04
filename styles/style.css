@@ -1,0 +1,84 @@
+.nav-checkbox{
+    display: none;
+  }
+  .nav-button{
+    display: none;
+  }
+  
+  .header-img {
+      object-fit: contain;
+      width: 20rem;
+      display: inline-block;
+  }
+  .nav{
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: black;
+      height: 8rem;
+      width: 100%;
+      text-align: center;
+      z-index: 15;
+  }
+  .nav-content{
+      display: flex;
+      justify-content: space-around; 
+      align-items: center;
+      flex-wrap: wrap;
+      height: 8rem;
+  }
+  .skip-link{
+      display: none;
+  }
+  .custom-info{
+      margin: 1rem;
+  }
+  .nav-link{
+      margin: 1rem;
+      height: 4.5rem;
+      display: inline-block;
+      object-fit: cover;
+  }
+  .social-icons{
+      display: inline-block;
+  }
+  .social-icon{
+      margin: 1rem;
+      height: 3.5rem;
+      display: inline-block;
+      object-fit: cover;
+  }
+  .header-container{
+      display: block;
+      width: 100%;
+      position: absolute;
+      top: 10vh;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .beast-container{
+      width: 30vw;
+      display: block;
+  }
+  .beast{
+      width: 30vw;
+  }
+  .mark-of{
+      width: 40vw;
+      display: block;
+  }
+  .vegan-diner{
+      width: 40vw;
+      margin-left: .5rem;
+      display: block;
+  }
+  .add-number{
+      width: 40vw;
+      margin-left: .5rem;
+      display: block;
+  }
+  /*
