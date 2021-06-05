@@ -152,6 +152,7 @@ ul {
   font-size: 20px;
   letter-spacing: 0.2rem;
   color: rgb(27, 18, 18);
+  text-align: justify;
 }
 
 .about-me button {
