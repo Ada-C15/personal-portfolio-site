@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* styling for nav bar*/
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:inline;
+    padding-inline-start: 0px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+}
+nav a:hover {
+    background-color: blue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+nav li {
+    margin: 15px;
+    font-size: 1.2em;
+}
+
+/* styling for home page*/
+#home-page {
+    background-color: #778899 ;
+    text-align: center;
+}
+
+#intro-section {
+    margin-top: 50px;
+}
+#intro-section h1 {
+    line-height: 1.5em;
+    font-size: 50px;
+}
+
+
+
+
+footer {
+    background-color: black;
+    margin-bottom: 0;
+}
+
+
+/* styling for about page*/
+/* styling for portfolio page*/
+/* styling for resume page*/
