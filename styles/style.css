@@ -10,6 +10,7 @@ VH: Relative to the viewport’s height
 
 
 /* --- STYLE FOR MAIN BODY --- */
+/* HOME */
 
 html{
     font-family: 'Futura',sans-serif;
@@ -28,10 +29,6 @@ body{
     /*grid-template-columns: 1fr 4fr; this makes to divide the main section in 1 and 4 fractions.*/
 }
 
-.home-img{
-    max-width: 900px;
-}
-
 h1{
     color: #ff674d;
     font-weight: 400;
@@ -39,17 +36,58 @@ h1{
     text-align:center;
 }
 
-main{
+/* HOME */
+
+.home-img{
+    max-width: 100%;
+}
+/* main{
     display: grid;
-   /* max-width: 60em;        makes the text smaller */
     margin-left: auto;
     margin-right: auto;
-}
-
+} */
 .home-text{
     padding: 50px;
     text-align: center;
     letter-spacing: 0.09rem;
+}
+
+/* ABOUT */
+
+.about-img{
+    max-width: 100%;
+    margin-top: -10px;
+}
+
+.about-text{
+    font-size: 1.3em;
+    letter-spacing: 0.03rem;
+    text-align: justify;
+    /* I don't like having <br><br> at the end of each paragraph, 
+    but I couldn't change the sapce between <p> in the CSS */
+}
+
+.about-row{
+    display: flex; /*This will allow the 2 columns*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-column{
+    padding: 10px;
+    flex-direction: column;
+    width: calc(50% - 1.5rem);
+}
+
+.special-link{
+    padding: 0px;
+    border-bottom: 1px dotted;
+    display: inline;
+}
+
+.special-link:hover{
+    padding: 0px;
+    border-bottom: 1px dotted;
 }
 
 /* --- STYLE FOR HEADER --- */
@@ -75,7 +113,7 @@ nav{
 
 a{
     color: #ee715b;
-    text-decoration: none; /*removes the underline*/
+    text-decoration: none; /*removes the underline */
     padding: 15px;
 }
 
@@ -101,9 +139,6 @@ footer{
     background-color: #2b2b2b;
     text-align: center;
     padding: 0.15em 1em;
-    /*display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
 }
 
 .contact-list{
