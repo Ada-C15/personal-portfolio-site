@@ -1,0 +1,79 @@
+article img {
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+article li {
+    list-style-type: none;
+}
+
+.blogpic {
+    float: right;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.5em;
+    background-color: azure;
+}
+
+.current-page {
+    font-weight: lighter;
+}
+
+h1 {
+    color: white;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    min-height: 400px;
+}
+
+header img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    z-index: -1;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+main article {
+    text-align: center;
+    font-size: 1.5em;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+nav {
+    background-color: azure;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
