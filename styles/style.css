@@ -1,7 +1,7 @@
 article img {
     border-radius: 20px;
     max-width: 200px;
-    margin: 1em 1em 1em 1em;
+    margin: 1em .5em .5em 1em;
 }
 
 article li {
@@ -25,7 +25,8 @@ footer {
 }
 
 .current-page {
-    font-weight: lighter;
+    font-weight: bolder;
+    font-size: 1.25em;
 }
 
 h1 {
@@ -58,6 +59,12 @@ header img {
     z-index: -1;
 }
 
+.hobbies img {
+    border-radius: 20px;
+    max-width: 200px;
+    margin: 2em 2em 0em 2em;
+}
+
 .hobbies p {
     font-family: fantasy;
     color: lightslategray
@@ -69,10 +76,17 @@ header img {
     justify-content: center;
 }
 
+.home p::first-letter {
+    font-size: 1.5em;
+}
+
 main {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    /*grid-template-rows: auto 1fr auto;*/
+}
+
+main .about {
+    text-align: justify;
 }
 
 main article {
@@ -81,6 +95,10 @@ main article {
     grid-column-start: 2;
     grid-column-end: 4;
     padding: 4em;
+}
+
+main .home {
+    text-align: justify;
 }
 
 main .portfolio {
@@ -97,6 +115,7 @@ nav {
 
 nav a {
     text-decoration: none;
+    color: black;
 }
 
 nav li {
@@ -114,4 +133,19 @@ nav ul {
 
 .portfolio p {
     font-size: .75em;
+    padding-bottom: 3.5em;
+    color: rgb(43, 52, 52);
+}
+
+.portfolio img {
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+    font-weight: bold;
+    font-style: italic;
 }
