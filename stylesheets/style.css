@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+  }
+  
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #faf4d3;
