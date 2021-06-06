@@ -1,3 +1,7 @@
+.borrowed_content {
+    grid-column: span 2;
+}
+
 .dog_simps {
     display: flex;
     flex-wrap: wrap;
@@ -6,7 +10,9 @@
     align-items: flex-start;
   }
 
-/*.thumbnail {}*/
+.thumbnail>img {
+    max-width: .5vw
+}
 
 
 .dog_simps>div {
