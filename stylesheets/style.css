@@ -83,7 +83,6 @@ body {
   }
   
   nav {
-    border: 5px solid #004643;
     grid-column: 1;
     grid-row: 2;
   }
