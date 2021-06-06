@@ -11,13 +11,13 @@
   }
 
 .thumbnail>img {
-    max-width: 5vw
+    max-width: 10vw
 }
 
 
 .dog_simps>div {
-    min-width: 10vw;
-    min-height: 10vw;
+    min-width: 15vw;
+    min-height: 15vw;
   }
 
 img {
