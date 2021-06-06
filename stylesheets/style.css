@@ -9,6 +9,11 @@
     min-height: 10vw;
   }
 
+img {
+    max-width: 50vw;
+    border: 0.5em solid #f6be9a;
+  }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #faf4d3;
