@@ -14,13 +14,13 @@
   }
 
 .thumbnail>img {
-    min-width: 20vw
+    min-width: 15vw
 }
 
 
 .dog_simps>div {
-    min-width: 25vw;
-    min-height: 25vw;
+    min-width: 20vw;
+    min-height: 20vw;
     text-align: center;
     vertical-align:middle;
   }
