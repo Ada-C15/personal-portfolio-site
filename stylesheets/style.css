@@ -1,0 +1,256 @@
+
+body {
+  font-family: 'Dosis', 'Roboto', sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+main {
+  display: grid;
+  /* grid-column-gap: 50px;
+  grid-row-gap: 50px; */
+  /* grid-gap: 50px 50px; */
+  grid-template-columns:  1fr 1fr 1fr 1fr;
+  /* grid-template-rows: auto; */
+  /* max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh; */
+}
+
+header {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  height: 100%;
+  /* width: 100%; */
+  /* margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 80px; */
+  
+}
+
+nav {
+  /* border: 5px solid #5f6c7b; */
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+  font-size: 1rem;
+}
+
+section {
+  grid-column: 1 / 5;
+  grid-row: 3 / 4;
+  display: grid;
+  grid-template-columns:  1fr 2fr 4fr;
+  margin-bottom: 100px;
+}
+
+section img {
+  width: 560px;
+  /* border-radius: 20px; */
+  margin-left: 50px;
+	/* border: 5px solid green; */
+  margin-top: 50px;
+}
+
+#prof-descr {
+  margin-left: 50px;
+  grid-column: 2 / 3 ;
+  grid-row: 2 / 3;
+  margin-top: 20px;
+}
+
+footer {
+  grid-column: 1 / 5;
+  grid-row: 4 / 5;
+  background: mediumvioletred;
+  /* margin-top: 1em;
+  padding: 1em 2em;
+  display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  /* grid-column: span 2; */
+  color: white;  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 1rem;
+
+}
+
+
+footer p {
+  margin-left: 50px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+
+
+
+h1 {
+    color: mediumvioletred;
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 50px;
+    font-size: 5rem;
+}
+
+h2 {
+  margin-left: 50px;
+  font-size: 3rem;
+  grid-column: 1 / 2 ;
+  grid-row: 1 / 2;
+}
+
+
+
+
+#main-menu {
+	margin: 0px;
+	/* width: 900px; */
+  
+}
+
+#main-menu li {
+	display:block;
+	width:120px;
+  height: 50px;
+	float: left;
+	margin-left:2px;
+	/* border:1px solid black; */
+  text-align: center;
+}
+
+#main-menu a {
+	display:block;
+	padding: 15px;
+	text-decoration:none;
+	/* background-color:#fff; */
+	color: white;
+  height: 50px;
+}
+
+#main-menu a:hover {
+	background-color: green;
+	color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: green;
+  /* border-radius: 50%; */
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* .fa-linkedin {
+  background: #007bb5;
+  color: white;
+} */
+
+/* .fa-github:before {
+    content: "\f09b";
+  }
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-linkedin:before {
+    content: "\f099";
+} */
+
+.social {
+
+  grid-column: 2 / 3 ;
+  grid-row: 3 / 4;
+  bottom: 0;  
+  size: 0.1rem;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.description {
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+  grid-column: 2 / 3 ;
+  grid-row: 2 / 3;
+  margin-top: 20px;
+  text-align-last: left;
+  text-align: left;
+}
+
+
+.about-description {
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+  grid-column: 2 / 3 ;
+  grid-row: 2 / 3;
+  margin-top: 50px;
+  text-align-last: left;
+  text-align: left;
+}
+
+
+.portfolio {
+  margin-left: 0px;
+  color: black;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2 / 3 ;
+  grid-row: 2 / 3;
+}
+
+/* .portfolio article {
+  grid-column: 2 / 3 ;
+  grid-row: 2 / 3;
+  /* padding: 1rem;
+  border: 5px solid green;
+} */
+
+section article {
+  margin-top: 50px;
+  /* margin-left: 100px; */
+}
+
+section article img {
+  width: 560px;
+  /* border-radius: 20px; */
+  /* margin-left: 50px; */
+	/* border: 5px solid green; */
+  /* margin-top: 50px; */
+}
+
+.img-source {
+  font-size: 1rem;
+  color: gray;
+}
+
+.github-link {
+  color: green;
+}

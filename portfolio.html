@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home &mdash; Nataliia Getlin's Personal Portfolio Site</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        header {
+            background-image: url('./images/header_background.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="home">
+        <header class="page-header">
+            <h1>My Portfolio</h1>
+        </header>
+        <nav>
+            <ul id="main-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./hobby-blog.html">Blog</a></li>
+            </ul>
+        </nav>
+
+
+
+        <section class="portfolio">
+            <article>
+                <h3>Image Puzzle Game</h3>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FLd-jGCha-g"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <p class="description">
+                    Capstone project: self-directed and self-taught independent project on creating GUI and image
+                    processing in Python. Developed as my Final Project for the Stanford University class CS106A.
+                </p>
+                <a class="portfolio github-link" href="https://github.com/GetlinN/Image-Puzzle-Game">Project #1 on
+                    GitHub</a>
+
+            </article>
+
+            <article>
+                <h3>Retro Video Store API</h3>
+                <img class="portfolio" src="./images/video-store.jpeg" alt="Retro Video Store" width="560">
+                <a class="portfolio img-source" href="https://averagejosh.com/tag/video-store/">Image Source</a>
+                <p class="description">
+                    Created client-server model, designed request-response cycle and conventional RESTful routes. Drove
+                    development with independent reserch. Used Postman as part of the development workflow.
+                    Utilized Flask and mamany-to-many relationship between models.
+                </p>
+                <a class="portfolio github-link" href="https://github.com/GetlinN/retro-video-store">Project #2 on
+                    GitHub</a>
+            </article>
+
+            <article>
+                <h3>Task List API</h3>
+                <img class="portfolio" src="./images/task-list.jpg" alt="task list api" width="560">
+                <a class="portfolio img-source"
+                    href="https://nitrocdn.com/UUpBFFxnOIwZJoZnEZpIdSwGaBcvzyPt/assets/static/source/rev-8f81a34/images/2020/10/task-list-template-2048x1152.jpg.webp">Image
+                    Source</a>
+                <p class="description">
+                    Project: Create an API in Python using Flask.
+                    Worked with the Flask package.
+                    Created models. Created conventional RESTful CRUD routes for a model. Created unconventional routes
+                    for custom behavior. Applied knowledge about making requests in Python, to call an API inside of an
+                    API.
+                    Applied knowledge about environment variables.
+                    Created a one-to-many relationship between two models.
+                </p>
+                <a class="portfolio github-link" href="https://github.com/GetlinN/task-list-api">Project #3 on
+                    GitHub</a>
+            </article>
+
+        </section>
+        <footer>
+            <p>&copy; 2021 | Nataliia Getlin | C15 | Ada Developers Academy </p>
+        </footer>
+    </main>
+</body>
+
+</html>
