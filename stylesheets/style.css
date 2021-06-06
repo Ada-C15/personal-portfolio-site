@@ -11,8 +11,7 @@
   }
 
 .thumbnail>img {
-    max-width: 20vw
-    float: center;
+    min-width: 20vw
 }
 
 
