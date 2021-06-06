@@ -1,12 +1,12 @@
 .dog_simps {
     display: flex;
     flex-wrap: wrap;
-    width: 10vw;
+    width: 50vw;
   }
 
 .dog_simps>img {
-    min-width: 50px;
-    min-height: 50px;
+    min-width: 10vw;
+    min-height: 10vw;
   }
 
 body {
