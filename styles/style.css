@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin:0;
     padding:0;
@@ -34,7 +34,7 @@ nav li {
     font-size: 1.2em;
 }
 
-/* styling for home page*/
+/************ styling for home page **********/
 #home-page {
     background-color: #778899 ;
     text-align: center;
@@ -50,13 +50,70 @@ nav li {
 
 
 
+/* styling for social buttons*/
 
-footer {
-    background-color: black;
-    margin-bottom: 0;
+#link, #git, #twit, #stack  {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.fa:hover {
+    color: blue;
 }
 
 
-/* styling for about page*/
-/* styling for portfolio page*/
+
+/* styling for footer*/
+footer {
+    margin-top: 10%;
+}
+
+
+/************ styling for about page **********/
+#profile-photo {
+    max-width: 30%;
+    border-radius: 50%;
+}
+
+/* styling for message box */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    width: 40%;
+    margin-left: 30%;
+    margin-left: 30%;
+}
+
+#contact-t {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/********* styling for portfolio page **********/
+
 /* styling for resume page*/
