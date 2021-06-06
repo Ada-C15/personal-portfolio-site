@@ -26,14 +26,19 @@ img {
   }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #faf4d3;
+    font-family: Arial, Georgia, 'Times New Roman', Times, serif, sans-serif;
+    /*background: #faf4d3;*/
+    background: rgba(255,213,253,0.98);
+    background: linear-gradient(98deg,rgba(255,213,253,0.98) 20%, #c9f7ff 80%);
+    background: -webkit-linear-gradient(98deg,rgba(255,213,253,0.98) 20%, #c9f7ff 80%);
+    background: -moz-linear-gradient(98deg,rgba(255,213,253,0.98) 20%, #c9f7ff 80%);
     margin: 0;
     padding: 0;
   }
   
   h1, h2, h3, h4 {
     color: #0c1618;
+    font-variant: small-caps;
   }
   
   .current-page {
