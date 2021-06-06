@@ -5,8 +5,8 @@
   }
 
 .dog_simps>img {
-    max-width: 10vw;
-    max-height: 10vw;
+    min-width: 10vw;
+    min-height: 10vw;
   }
 
 body {
