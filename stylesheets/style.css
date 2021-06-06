@@ -1,9 +1,9 @@
-.container {
+.dog_simps {
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
+    width: 10vw;
   }
-  
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #faf4d3;
