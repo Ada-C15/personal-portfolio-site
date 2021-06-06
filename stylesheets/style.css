@@ -36,19 +36,18 @@ nav {
   grid-column: 1 / 5;
   grid-row: 2 / 3;
   font-size: 1rem;
-
-  
 }
 
 section {
   grid-column: 1 / 5;
   grid-row: 3 / 4;
   display: grid;
-  grid-template-columns:  1fr 4fr;
+  grid-template-columns:  1fr 2fr 4fr;
+  margin-bottom: 100px;
 }
 
 section img {
-  width: 400px;
+  width: 560px;
   /* border-radius: 20px; */
   margin-left: 50px;
 	/* border: 5px solid green; */
@@ -92,7 +91,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;  
+  background-color: black;
 }
 
 
@@ -185,20 +184,61 @@ h2 {
 } */
 
 .social {
-  color: purple;
-  /* margin-left: 50px; */
+
   grid-column: 2 / 3 ;
   grid-row: 3 / 4;
   bottom: 0;  
+  size: 0.1rem;
+  display: flex;
+  flex-direction: row;
   
 }
 
 .description {
   /* margin-left: 50px; */
-  margin-right: 50px;
+  /* margin-right: 50px; */
   grid-column: 2 / 3 ;
   grid-row: 2 / 3;
-  margin-top: 50px;
+  margin-top: 20px;
   text-align-last: left;
   text-align: left;
+}
+
+.portfolio {
+  margin-left: 0px;
+  color: black;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2 / 3 ;
+  grid-row: 2 / 3;
+}
+
+/* .portfolio article {
+  grid-column: 2 / 3 ;
+  grid-row: 2 / 3;
+  /* padding: 1rem;
+  border: 5px solid green;
+} */
+
+section article {
+  margin-top: 50px;
+  /* margin-left: 100px; */
+}
+
+section article img {
+  width: 560px;
+  /* border-radius: 20px; */
+  /* margin-left: 50px; */
+	/* border: 5px solid green; */
+  /* margin-top: 50px; */
+}
+
+.img-source {
+  font-size: 1rem;
+  color: gray;
+}
+
+.github-link {
+  color: green;
 }
