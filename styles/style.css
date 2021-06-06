@@ -90,6 +90,50 @@ h1{
     border-bottom: 1px dotted;
 }
 
+
+/* PORTFOLIO */
+.projects{
+    width: 100%;
+    padding: 10px;
+}
+
+.project {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+    margin-bottom: 40px;
+    border-bottom: 2px dotted;
+    list-style: none;
+}
+
+.project:nth-of-type(odd){
+	flex-direction:row-reverse;
+}
+
+.portfolio-img{
+    padding: 5px;
+    width: 150%;
+}
+
+.project-title {
+	font-size: 1.4em;
+    padding: 0px;
+}
+
+.project-title:hover{
+    padding: 0px;
+    color:#989696;
+}
+
+.project-description {
+	font-size: 1.2em;
+    text-align: justify;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
 /* --- STYLE FOR HEADER --- */
 
 nav{
