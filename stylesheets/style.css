@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
+
+body {
+    font-family: 'Satisfy', cursive;
+    background: #FAF4D3;
+    margin: 0px;
+
+  }
+
+main {
+    margin: 50px;
+}
+
+footer {
+    background: #D1AC00;
+    margin-top: 3em;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-column: span 2;
+  }
+
+#main_menu {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    background: #D1AC00;
+    margin-top: 0px;
+
+  }
+
+.nav-link {
+    margin-top: 25px;
+    display: inline-block;
+    }
+
+.left {
+    float: left;
+    }
+    
+.right {
+    float: right;
+    }
+
+li{
+    list-style:none;
+    padding: 0 15px 0 0;
+}
+#home {
+    background: #dda15e;
+}
+
+h1 {
+color: #004643;
+}
+h2,
+#bio_content {
+    color: #092223;
+    font-family: 'Spartan', sans-serif;
+}
