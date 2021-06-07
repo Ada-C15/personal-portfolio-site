@@ -126,18 +126,18 @@ article img {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    max-height: 400px;
+    max-width: 250px;
+    height: 400px;
     margin: auto;
     text-align: center;
     background: #89b0ae;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
-article image {
+article img {
     display: flex;
     width: 250px;
-    height: 250px;
+    height: auto;
 }
 
 
