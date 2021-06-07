@@ -1,0 +1,211 @@
+/* --------------------------------fonts---------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+/* --------------------------------ids---------------------------------*/
+
+
+/* about-pic: used in the about page to modify the img */
+#about-pic {
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:5rem;
+    max-width: 18%;
+    min-width: 230px;
+    }
+
+#about-pic:hover {
+    filter:invert(100%);
+}
+
+
+/* projects: used in the projects page to ajdust/modify the text/list bullets */
+#projects {
+    margin: 2rem;
+    border: 2px solid transparent;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 1em;
+    text-align: justify;
+}
+
+#projects li::marker{
+    content: '♥ ';
+    color: turquoise;
+}
+
+/* --------------------------------classes---------------------------------*/
+
+
+/* about: used in the about page to adjust the text */
+.about > div {
+    margin: 2rem;
+    border: 2px solid transparent;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 1em;
+    text-align: justify 
+    }
+
+
+/* blog: used in the blog page to adjust the text & images */
+.blog > div {
+    margin: 2rem;
+    border: 3px solid transparent;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2em;
+    }
+
+.blog-imgs {
+    display: block;
+    border-radius: 15%;
+    max-width:100%; 
+}
+
+
+/* .container: used in the all pages (for now) to adjust the nav grid */
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 20px;
+    }
+
+.container > div {
+    background-color: rgba(109, 193, 184, 0.488);
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    }
+
+.container div:hover {
+    background-color: rgb(0, 0, 0);
+    color: black;
+    }
+
+
+/* .footer: used in the all pages (for now) to adjust the footer. */
+/* note: I'm aware that the footer overflows the text but I still didn't find a way to improve this */
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: turquoise;
+    text-align: center;
+    font-size: 0.8em;
+    /* overflow:hidden; */
+    }
+
+
+/* .header: used in the all pages (for now) to adjust the header. */
+.header {
+    background-color: #202124;
+    font-family: 'Kiwi Maru', serif;
+    color: #ddd;
+    }
+
+
+/* .portfolio: used in the portfolio to adjust the div text. */
+.portfolio > div {
+    margin: 2rem;
+    border: 2px solid transparent;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 1em;
+    text-align: justify 
+    }
+
+
+/* .short-text:(temporaryly) using in some pages where the text is too small. */
+.short-text p {
+    text-align: center
+}
+
+
+/* --------------------------------selectors---------------------------------*/
+
+
+a:link, a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+    }
+
+
+body {
+    background: #202124;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    color:rgb(254, 238, 255);
+}
+
+
+h1,
+h2, 
+h3 {
+    color: rgb(212, 151, 218);
+    text-align: center;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px double rgb(193, 193, 125);
+    color: #333;
+    overflow:visible;
+    text-align: center;
+    opacity: 25%;
+    height: 5px;
+}
+
+
+hr:after {
+    content: '♥';
+    color: rgb(193, 193, 125);
+    padding: 0 1px;
+    position: relative;
+    top: -10px;
+}
+
+
+figcaption {
+    padding-top: 0.5em;
+    font-size: 0.75em;
+    text-align: justify;
+}
+
+
+figcaption:hover {
+    text-decoration: underline;
+    color:turquoise
+}
+
+
+li [href] {
+    text-decoration: underline;
+    color:turquoise
+}
+
+
+p [href] {
+    text-decoration: underline;
+    color:turquoise
+}
+
+
+
+
+
+
+
+
+
