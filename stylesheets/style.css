@@ -27,7 +27,13 @@ header img {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
-   }
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main {
+    margin-bottom: 50px;
+}
 
 nav ul {
     display: flex;
@@ -82,3 +88,73 @@ dark teal: 89b0ae
 light teal: bee3db
 light pink: faf9f9 buttons 
 pink: ffd6ba font on navigation*/
+
+/* .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 5px rounded corners
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+article img {
+    border-radius: 5px 5px 0 0;
+} */
+
+/* works for blue background... */
+/* .card { */
+    /* width: 200px; */
+    /* height: 230px; */
+    /* display: inline-block; */
+    /* border-radius: 10px; */
+    /* padding: 15px 25px; */
+    /* box-sizing: border-box; */
+    /* cursor: pointer; */
+    /* margin: 10px 15px; */
+    /* background: blue */
+    /* background: url("images/poo_poo_point.jpeg") blue; */
+    /* background-position: center; */
+    /* background-size: cover; */
+/* } */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    max-height: 400px;
+    margin: auto;
+    text-align: center;
+    background: #89b0ae;
+    cursor: pointer;
+}
+
+article image {
+    display: flex;
+    width: 250px;
+    height: 250px;
+}
+
+
+/* portfolio formatting */
+.project {
+    padding: 10px;
+}
+
+.project a {
+    color: #6c8d8b;
+}
+
+.project a:hover {
+    color: white;
+}
+
+.project p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
