@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 html{
     box-sizing: border-box;
 }
 
 body{
-    font-size: 10px;
+    font-size: 1em;
     font-family: 'Quicksand', sans-serif;
     background-color: rgb(255, 255, 255);
-    color: white;
+    color: black;
     margin: 0;
 }
 
@@ -14,86 +16,174 @@ a {
     text-decoration: none;
     border: none;
     outline: 0;
+    color: black;
+}
+a:active, a:visited {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    color: black;
+}
+a:hover{
+    background-color: bisque;
 }
 
-  
+h1, h2 {
+    font-family: 'Fugaz One', sans-serif;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 30px;
+}
 .header-img {
       width: 80vw;
       display: block;
   }
-  .nav{
-      display: block;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background-color: black;
-      height: 8rem;
-      width: 100%;
-      text-align: center;
-      z-index: 15;
-  }
-  .nav-content{
+
+nav {
+    display: flex;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 100%;
+    z-index: 3;
+}
+
+.nav-content {
+    list-style-type: none;
+}
+nav ul li {
+    text-transform: uppercase;
+    display: inline;
+    margin: 7px;
+    padding: 7px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.header-container {
       display: flex;
-      justify-content: space-around; 
-      align-items: center;
-      flex-wrap: wrap;
-      height: 8rem;
-  }
-  .skip-link{
-      display: none;
-  }
-  .custom-info{
-      margin: 1rem;
-  }
-  .nav-link{
-      margin: 1rem;
-      height: 4.5rem;
-      display: inline-block;
-      object-fit: cover;
-  }
-  .social-icons{
-      display: inline-block;
-  }
-  .social-icon{
-      margin: 1rem;
-      height: 3.5rem;
-      display: inline-block;
-      object-fit: cover;
-  }
-.header-container{
-      display: block;
       width: 100%;
-      position: absolute;
-      top: 10vh;
-      display: flex;
+      position: relative;
+      top: 50px;
+      bottom: 0px;
+      height: 400px;
       flex-wrap: nowrap;
       justify-content: center;
       align-items: center;
-      text-align: center;
-      background-color: rgba(255, 255, 255, .05);
-      background-image: url('../img/derailment1.jpg');
-      background-size: cover;
-      box-shadow: inset 0px 0px 277px 3px #ffffff;
   }
-  .beast-container{
-      width: 30vw;
-      display: block;
+
+.header-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../img/derailment1.jpg');
+    background-attachment: fixed;
+    opacity: .5;
+    background-size: cover;
+    z-index: -1;
+}
+
+section {
+    position: relative;
+    margin: 60px 40px 0px 40px;
+}
+
+#about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    padding-top: 40px;
+}
+
+#about img {
+    display: flex;
+    width: 260px;
+    height: 260px;
+    border-radius: 150px;
+    margin: 30px;
+}
+
+.icon-links {
+    display: flex;
+    justify-content: center;
+}
+.icon:hover {
+    border-radius: 10px;
+    background-color: bisque;
+    overflow: hidden;
+}
+.icon-links svg{
+    padding-left: 3px;
+}
+.icon-links .icon{
+    margin: 20px;
+    padding: 3px;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#resume {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    padding-top: 40px;
+}
+
+#resume img {
+    display: flex;
+    width: 260px;
+    height: 260px;
+    border-radius: 150px;
+    margin: 30px;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20vh;
+}
+
+.flex-desktop{
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, .5);
+    margin: 20px;
+    width: 380px;
+    height: 340px;
+    border-radius: 10px;
+    transition: box-shadow .3s;
+}
+.flex-desktop a{
+    background-color: white;
+}
+.flex-desktop:hover{
+    
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .8);
+}
+.desktop-screenshot{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    padding: 20px 40px;
+    font-size: .75em;
+}
+@media (max-width: 800px) {
+    section {
+      flex-direction: column;
+    }
   }
-  .beast{
-      width: 30vw;
-  }
-  .mark-of{
-      width: 40vw;
-      display: block;
-  }
-  .vegan-diner{
-      width: 40vw;
-      margin-left: .5rem;
-      display: block;
-  }
-  .add-number{
-      width: 40vw;
-      margin-left: .5rem;
-      display: block;
-  }
-  /*
