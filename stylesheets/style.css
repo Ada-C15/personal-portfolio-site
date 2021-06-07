@@ -1,0 +1,99 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../images/background01.jpg");
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: palevioletred;
+    box-shadow: 0 0 10px grey;
+}
+
+header{
+    text-align: center;
+    padding: 2em;
+    color: cornflowerblue;
+}
+
+main {
+  display: grid;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#cat{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+#profile {
+  float: left;
+}
+
+#resume{
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 10em;
+}
+
+#resume:hover{
+  background-color: white;
+  color: palevioletred;
+  box-shadow: 0 0 10px grey;
+}
+
+#welcome{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
