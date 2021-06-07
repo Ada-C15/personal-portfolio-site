@@ -1,0 +1,150 @@
+h1 {
+  font-size: 50px;
+  font-family: "lobster", helvetica, arial;
+  text-align: center;
+  padding: 10px;
+}
+h2 {
+  font-size: 45px;
+}
+
+body {
+  background: #feac5e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4bc0c8,
+    #c779d0,
+    #feac5e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4bc0c8,
+    #c779d0,
+    #feac5e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: yellow;
+  margin: 0;
+}
+
+p {
+  font-size: 30px;
+  color: rgb(62, 62, 62);
+  line-height: 50px; /* 25px +25px + 25px */
+}
+
+main {
+  padding: 40px 120px;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header h2 {
+  margin-top: 0;
+}
+
+nav,
+footer {
+  background-color: bisque;
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  line-height: 40px;
+}
+
+nav {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+  padding-left: 120px;
+}
+
+footer p {
+  margin: 0;
+}
+
+aside {
+  margin-top: 160px;
+  margin-left : 120px;
+  float: right;
+}
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.disc {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rounded {
+  border-radius: 50%;
+  border: white 5px solid;
+  filter: drop-shadow(10px 10px 20px #333);
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bio {
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+}
+
+.about {
+  text-align: left;
+  font-size: 100px;
+  margin-bottom: 0;
+  margin-block-end: 0;
+}
+
+.sub-title {
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+.home-text {
+  margin-left: 80px;
+}
+.p-home {
+  text-align: left;
+}
+
+.code-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pictures {
+  object-fit: contain;
+}
+
+.code-element {
+  width: 150px;
+  height: 150px;
+}
+
+.github {
+font-size: 35px;
+}
