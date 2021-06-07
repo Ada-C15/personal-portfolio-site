@@ -1,27 +1,24 @@
 body {
     background-color: #ffffff;
     margin: 0px;
-    padding: 0px;
 }
 
 
-h2 {
+body ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 26px;
-
+    list-style: none;
     background-color: #ffffff;
     height: 65px;
-    width: 100%;
     color: #333533;
     text-shadow: 2px 2px 7px #c1c5c6, 2px 2px 3px #8fb6ae;
-    padding: 0px;
-    margin: 1px;
-    /* border-top: 3px solid #333533;
-    border-bottom: 3px solid #333533; */
-
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
 
 }
 
@@ -75,19 +72,17 @@ h2 {
 }
 
 .unlinked-button span { 
-
     display: inline-block;
     position: relative;
 }
 
-.linked-button span { 
+.linked-button  { 
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.0s;
 }
-
-.linked-button span:after { 
+span:after {
     content: "\00bb";
     position: absolute;
     opacity: 0;
@@ -96,21 +91,17 @@ h2 {
     transition: 0.5s;
 }
 
-
-
-.linked-button:hover span {
-    color: #8fb6ae;
+.linked-button:hover {
+    color: #19424a;
     text-shadow: 4px 4px 2px #8fb6ae;
-    padding-right: 25px;
+    /* padding-right: 25px; */
 
 }
 
-.linked-button:hover span:after { 
+/* .linked-button:hover  { 
     opacity: 1;
     right: 0
-
-
-}
+} */
 nav {
 
     font-family: 'Courier New', Courier, monospace;
@@ -150,6 +141,7 @@ h3 {
     font-size: 100px;
     margin-top: 10px;
     margin-bottom: 60px;
+    width: 100%
 }
 
 section p {
@@ -162,8 +154,8 @@ section p {
 
 }
 a img {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
 
 }
 a img:hover {
@@ -174,7 +166,8 @@ a img:hover {
 
 section ul {
     background-image: url("../photos/succulent.png");
-    background-position: center top;
+    background-position: center ;
+    height: 100px;
     background-size: contain;
 
     display: flex;
