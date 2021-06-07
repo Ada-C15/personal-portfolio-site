@@ -1,0 +1,29 @@
+
+
+article h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+article {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+
+
+}
+
+article p {
+    text-indent: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+}

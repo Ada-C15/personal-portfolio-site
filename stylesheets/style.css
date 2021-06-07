@@ -1,0 +1,208 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+
+body ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    list-style: none;
+    background-color: #ffffff;
+    height: 65px;
+    color: #333533;
+    text-shadow: 2px 2px 7px #c1c5c6, 2px 2px 3px #8fb6ae;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+
+}
+
+
+.linked-button {
+    display: inline-block;
+    border-radius: 60px;
+    background-color: #dedfe3;
+    box-shadow:  3px 3px 10px #553e4e ;
+
+    color: #19424a; 
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 7px #c1c5c6, 2px 2px 3px #6c4c80;
+
+    padding: 5px;
+    width: 200px;
+    transition: all 0.0s;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px
+
+}
+
+.unlinked-button {
+    pointer-events: none;
+    cursor: default;
+    display: inline-block;
+    border-radius: 60px;
+    background-color: #a5a9b2;
+    border: 2px outset  #ece8ee;
+    box-shadow: inset 3px 3px 10px #553e4e ;
+    border: 2px #af9ab2;
+
+    color: #19424a; 
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 7px #c1c5c6, 2px 2px 3px #6c4c80;
+
+    padding: 5px;
+    width: 200px;
+    transition: all 0.0s;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px
+
+}
+
+.unlinked-button span { 
+    display: inline-block;
+    position: relative;
+}
+
+.linked-button  { 
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.0s;
+}
+span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.linked-button:hover {
+    color: #19424a;
+    text-shadow: 4px 4px 2px #8fb6ae;
+    /* padding-right: 25px; */
+
+}
+
+/* .linked-button:hover  { 
+    opacity: 1;
+    right: 0
+} */
+nav {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: #ffffff;
+    color: #497B80;
+    margin: none;
+    padding: none;
+    /* border-top: 3px solid #333533;
+    border-bottom: 3px solid #333533; */
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 5px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #19424a;
+
+}
+
+/* body {
+    background-color: #497B80;
+} */
+
+
+h3 {
+    text-shadow: 4px 4px 6px #74c4b3;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    width: 100%
+}
+
+section p {
+    margin: 50px;
+
+
+    text-indent: 50px;
+    line-height: 35px;
+
+
+}
+a img {
+    height: 100px;
+    width: 100px;
+
+}
+a img:hover {
+    display: alt;
+    box-shadow: 7px 7px 15px #8fb6ae;
+    border-radius: 100px;
+} 
+
+section ul {
+    background-image: url("../photos/succulent.png");
+    background-position: center ;
+    height: 100px;
+    background-size: contain;
+
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 75px;
+    margin-bottom: 300px;
+    background-color: #6f7e80;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 3px solid #333533;
+    border-bottom: 3px solid #333533;
+
+
+}
+
+h3 {
+    text-align: center;
+    color: #333533;
+    background-image: url("../photos/succulent.png");
+    background-position: center top;
+    /* border-top: 3px solid #333533; */
+    border-bottom: 3px solid #333533;
+
+
+}
+
+footer {
+    margin-top: 60px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-style: oblique;
+    background-color: #6f7e80;
+
+}
