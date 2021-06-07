@@ -12,6 +12,8 @@
     border-radius: 50%;
 }
 
+
+
 .round { 
     height: 320px;
     width: 300px;
@@ -58,6 +60,7 @@ section {
 #project4 { 
     grid-column: 2 /3;
     grid-row: 3 / 4;
+
 }
 
 #p3 { 
