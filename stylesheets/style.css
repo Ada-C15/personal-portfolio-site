@@ -4,19 +4,9 @@
 }
 
 body {
-    /* font-family: Arial, Helvetica, sans-serif; */
     background: #e3edf7;
-    /* background: linear-gradient( to right, #92d4fa,#32aef5); */
-    /* margin: 0;
-    padding: 0;
-    width: 100%; */
 }
-/* img {
-    max-width: 100vw;
-    height: auto;
-    float: left;
-    margin: 0 1em 1em 1em;
-} */
+
 
 h1 {
     font-family: sans-serif;
