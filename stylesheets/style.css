@@ -109,6 +109,7 @@ a:hover .fa-linkedin {
 .logo{
     width: 160px;
     cursor: pointer;
+    float: right;
 }
 nav{
     flex: 1;
@@ -140,7 +141,7 @@ p{
 
 .content{
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 0px;
 }
 
 
