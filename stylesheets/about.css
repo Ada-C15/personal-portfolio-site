@@ -1,0 +1,58 @@
+
+
+article {
+    justify-content: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-indent: 50px;
+
+}
+
+article p {
+    margin: 50px;
+    line-height: 35px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url("../photos/succulent.png");
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+
+}
+
+.landscape-portrait {
+    display: inline-block;
+    position: relative;
+    width: 225px;
+    height: 225px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.landscape-portrait img {
+    width: auto;
+    height: 100%;
+    margin-left: -25px;
+}
+
+.circular-portrait {
+    position: relative;
+    width: 225px;
+    height: 225px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular-portrait img {
+    width: 100%;
+    height: auto;
+}
+
+
+section div {
+    margin-top: 25px;
+    box-shadow:  5px 5px 12px #25838b;
+}
