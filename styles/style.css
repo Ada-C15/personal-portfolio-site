@@ -43,6 +43,10 @@ h3 {
     text-align: left;
 }
 
+h4 {
+    font-family: fantasy;
+}
+
 header {
     text-align: center;
     position: relative;
@@ -101,6 +105,12 @@ main .home {
     text-align: justify;
 }
 
+main .pastimes {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
 main .portfolio {
     text-align: justify;
     grid-column-start: 1;
@@ -131,15 +141,18 @@ nav ul {
     list-style-type: none;
 }
 
-.portfolio p {
-    font-size: .75em;
-    padding-bottom: 3.5em;
-    color: rgb(43, 52, 52);
+.pastimes li {
+    padding: 2em;
 }
 
-.portfolio img {
-    border-radius: 5px;
-    max-width: 600px;
+.pastimes p {
+    color: rgb(43, 52, 52);
+    font-size: .75em;
+}
+
+.pastimes ul {
+    display: flex;
+    flex-direction: row;
 }
 
 .portfolio a {
@@ -148,4 +161,15 @@ nav ul {
     font-family: fantasy;
     font-weight: bold;
     font-style: italic;
+}
+
+.portfolio img {
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+.portfolio p {
+    font-size: .75em;
+    padding-bottom: 3.5em;
+    color: rgb(43, 52, 52);
 }
