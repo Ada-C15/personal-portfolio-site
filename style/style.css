@@ -40,7 +40,7 @@ header {
     font-size: 19px;
 }
 
-.some-facts,
+.some-facts a,
 .portfolio a {
     text-decoration: none;
     background-color: black;
@@ -48,7 +48,7 @@ header {
     font-weight: bold;
 }
 
-.some-facts,
+.some-facts a:hover,
 .portfolio a:hover {
     background-color: white;
     color: black;
