@@ -13,7 +13,7 @@
   }
 
 .thumbnail>img {
-    min-width: 15vw
+    max-width: 15vw
 }
 
 
