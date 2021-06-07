@@ -70,10 +70,10 @@ body {
     margin: 0;
   }
   
-  main {
+  #home main {
     display: grid;
-    /*grid-template-columns: 1fr 4fr;
-    grid-template-rows: auto 1fr auto;*/
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 1fr auto;
     max-width: 60em;
     margin-left: auto;
     margin-right: auto;
