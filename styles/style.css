@@ -134,6 +134,42 @@ h1{
 }
 
 
+/*  HOBBY  */
+
+
+.my-background{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    color: rgb(43, 43, 43);
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+/* I used the info in next link:
+https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div
+to set my image as background with opacity without affecting my text */
+.my-background::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    background: url("../images/hobby_YouTube.jpg") center center;
+    background-size: cover;
+    /* justify-content: center; */
+    opacity: .6;
+}
+
+.hobby-text{
+    padding: 40px;
+    font-size: 1.2em;
+}
+
 /* --- STYLE FOR HEADER --- */
 
 nav{
