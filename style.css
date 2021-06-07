@@ -1,0 +1,128 @@
+a {
+  color: #77b392;
+  font-size: 1em;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+p,
+ul {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+img {
+  width: 80%;
+  text-align: center;
+  padding-left: 20%;
+  padding-bottom: 15px;
+  height: auto;
+}
+
+h1,
+h2 {
+  color: #3e4242;
+  font-weight: 200;
+  font-family: "Inconsolata", monospace;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+h {
+  font-size: 250%;
+}
+
+footer {
+  color: #7a7a7a;
+  font-style: italic;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.profile-pic {
+  float: left;
+  padding: 0%;
+  max-width: 200px;
+  width: 50%;
+  height: 50%;
+  margin-right: 20px;
+  border-radius: 10%;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.working-link {
+  font-size: 1.3em;
+  line-height: 1.6;
+}
+
+.top-menu {
+  background-color: #2f2f2f;
+  padding-right: 2%;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 2em;
+  font-family: "Inconsolata", monospace;
+}
+
+.date {
+  color: #7a7a7a;
+  font-size: 99%;
+}
+
+.logo {
+  display: block;
+  padding: 0%;
+  width: 85px;
+  height: 85px;
+  margin-left: 30px;
+  margin: 20px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Inconsolata", monospace;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.media-links {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.padding-bottom {
+  padding-bottom: 35px;
+}
+
+.project{
+  margin-bottom: 60px;
+}
+
+.container {
+  max-width: 800px;
+  padding-top: 20px;
+}
+
+.title-text {
+  display: inline;
+}
+
+@media all and (max-width: 704px) {
+  .title-text {
+    display: none;
+  }
+}
