@@ -6,7 +6,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: rgb(226, 146, 17);
 }
 
 a:visited {
@@ -24,9 +24,8 @@ button:active {
 }
 
 /*header {
-  width: 150%;
-  height: 60vh;
-  background-image: url("../images/purple.jpg");
+  width: 50%;
+  height: 10vh;
   background-repeat: no-repeat;
   background-size: contain;
 }*/
@@ -50,7 +49,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background-color: #ffffff;
+  background-color: #f0d3b6;
   box-shadow: 2px 2px 12px (rgba(0, 0, 0, 0.2));
   padding: 0px 5%;
 }
@@ -69,7 +68,7 @@ nav ul li a {
 
 section {
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   background-image: url("../images/abs.jpg");
   background-size: cover;
   background-repeat: repeat;
@@ -79,12 +78,12 @@ section {
 ul {
   list-style: none;
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   text-align: center;
   font-size: 30px;
-  color: rgb(7, 6, 7);
+  color: rgb(7, 7, 6);
   padding: 0px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .active {
@@ -98,8 +97,10 @@ ul {
   background-color: transparent;
   border: none;
 }
+
 .my-pic {
   height: 250px;
+  display: flex;
   position: absolute;
   bottom: 0px;
   top: 10.3%;
@@ -156,11 +157,15 @@ ul {
 }
 
 .about-me button {
-  opacity: 0.6;
-  margin: 40px;
-  border: 2px solid black;
-  background-color: #ffffff;
-  filter: alpha(opacity=70);
+  width: 130px;
+  height: 42px;
+  border-radius: 10px;
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+  background-color: white;
+  margin: 0px 10px;
 }
 
 .about-me p {
@@ -201,13 +206,13 @@ ul {
 
 .hobbies {
   width: 100%;
-  height: 280px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   letter-spacing: 0.2rem;
   align-items: center;
-  margin: 0px 0px 100px 0px;
+  align-content: center;
+  margin: auto; /*0px 0px 100px 0px;*/
 }
 
 /*.hobbiesd {
@@ -239,8 +244,8 @@ ul {
 }
 
 .projects {
-  margin: 0px;
-  padding: 10px;
+  margin: auto;
+  padding: 30px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -267,13 +272,18 @@ ul {
 }
 
 .projects p {
-  /*color: #0f0c0c;
-  font-family: calibri;
-  font-size: 16px;*/
   color: #2c2424;
   font-size: 20px;
   font-family: calibri;
   font-weight: bold;
+}
+
+.welcome {
+  position: absolute;
+  left: 13%;
+  top: 32%;
+  transform: translate(-13%, -42%);
+  margin: auto;
 }
 
 .welcome p:nth-child(1) {
@@ -295,7 +305,6 @@ ul {
 .welcome p:nth-child(3) {
   font-family: myriad pro regular;
   color: #403e3e;
-
   font-size: 30px;
   line-height: 30px;
 }
@@ -303,12 +312,6 @@ ul {
 .welcome p {
   line-height: 0px;
   margin: 45px 0px 25px;
-}
-.welcome {
-  position: absolute;
-  left: 13%;
-  top: 42%;
-  transform: translate(-13%, -42%);
 }
 
 .welcome button {
