@@ -1,0 +1,175 @@
+.intro-content {
+    height: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    padding: 50px;
+    color: black;
+    font-family: "Helvetica";
+    width: 1000px;
+}
+
+.left-column,
+.right-column {
+    width: 50%;
+    vertical-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-family: "Courier New";
+    color: gray;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    text-align: center;
+}
+
+header {
+    font-family: "Courier New";
+    font-size: 40px;
+    text-align: center;
+}
+
+.some-facts {
+    text-align: left;
+    font-family: "Helvetica";
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.some-facts a,
+.portfolio a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.some-facts a:hover,
+.portfolio a:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav {
+    padding-top: 25px;
+    text-align: center;    
+}
+
+.nav a {
+    font-family: "Helvetica";
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.about {
+    /* Text */
+    color: red;
+    font-family: "American Typewriter";
+    font-size: 40px;
+    font-weight:lighter;
+    display: flex;
+    table-layout : fixed;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.about td {
+    width:25%;
+}
+
+.portfolio {
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    padding: 50px;
+    color: black;
+    font-family: "Helvetica";
+    line-height: 25px;
+    width: 900px;
+}
+
+.portfolio th {
+    color: red;
+    font-family: "American Typewriter";
+    font-size: 40px;
+    font-weight:lighter;
+}
+
+.portfolio tr {
+    vertical-align: text-top;
+}
+.hobbies {
+    color: red;
+    font-family: "American Typewriter";
+    font-size: 15px;
+    text-align: center;
+}
+
+.parts {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: grid;
+    min-height: 100vh;
+    object-fit: cover;
+}
+
+.container.items {
+    display: contents;
+}
+
+.item1a {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+
+}
+.item1b {
+    grid-row: 1;
+    grid-column: 3 / span 2;
+}
+.item1c {
+    grid-row: 1;
+    grid-column: 5 / span 2;
+}
+
+.item2 {
+    grid-row: 2 /span 3;
+    grid-column: 1 /span 2;
+}
+
+.item3 {
+    grid-row: 2;
+    grid-column: 3 /span 4;
+}
+
+.item4 {
+    grid-row: 3;
+    grid-column: 3 /span 2;
+}
+
+.item5 {
+    grid-row: 3;
+    grid-column: 5 / span 2;
+}
+
+  * {
+    margin: 0;
+}
+
+[class^=item] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(2vh + 2vw)
+}
+
