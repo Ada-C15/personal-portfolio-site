@@ -5,11 +5,10 @@ body {
     font-family: 'Satisfy', cursive;
     background: #FAF4D3;
     margin: 0px;
-
   }
 
 main {
-    margin: 50px;
+    margin: 100px;
 }
 
 footer {
@@ -25,36 +24,48 @@ footer {
 #main_menu {
     display: flex;
     flex-direction: row-reverse;
-    align-items: flex-end;
+    align-content: flex-end;
     background: #D1AC00;
     margin-top: 0px;
+    
 
   }
 
 .nav-link {
-    margin-top: 25px;
     display: inline-block;
+    background: #D1AC00;
     }
 
 .left {
+    margin-top: 25px;
     float: left;
     }
     
 .right {
-    float: right;
+    padding-left: 60px;
+    padding-top: 5px;
     }
+
+.right > img {
+    width: 200px;
+    padding-left: 35px;
+}
 
 li{
     list-style:none;
     padding: 0 15px 0 0;
 }
 #home {
-    background: #dda15e;
+    background: #D1AC00;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 h1 {
 color: #004643;
 }
+
 h2,
 #bio_content {
     color: #092223;
