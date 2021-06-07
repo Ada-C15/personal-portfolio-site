@@ -3,7 +3,7 @@
 }
 
 .dog_simps {
-    display: flex, grid;
+    display: flex;
     flex-wrap: wrap;
     width: 100vw;
     margin: 0 auto;
@@ -20,14 +20,15 @@
 .dog_simps>div {
     min-width: 20vw;
     min-height: 20vw;
+    min-width: auto;
     text-align: center;
     vertical-align:middle;
-    padding: 20px;
+    padding: 0;
+    margin:0;
   }
 
 img {
     max-width: 50vw;
-    border: 0.5em solid #f6be9a;
   }
 
 body {
@@ -105,5 +106,5 @@ body {
     width: 150px;
     float: right;
     margin: 0 1em 1em 1em;
+    border: 0.5em solid #f6be9a;
   }
-  
