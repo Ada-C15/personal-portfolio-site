@@ -1,0 +1,133 @@
+ul {
+    background: white;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+  }
+  
+li {
+    text-transform: uppercase;
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 10px 10px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    font-size: 16.5px;
+}
+
+.home-page {
+    background-color: #fe938c;
+}
+
+.about-page {
+    background-color: #e6b89c;
+}
+
+.portfolio-page {
+    background-color: #ead2ac;
+}
+
+.hobby-page {
+    background-color: #9cafb7;
+}
+
+footer {
+    align-self: flex-end;
+}
+
+h1 {
+    text-transform: uppercase;
+    line-height: 2;
+}
+
+body {
+    font-family: 'Sarabun', sans-serif;
+    line-height: 2;
+    background: white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.bio {
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-block-start: 50px;
+    margin-block-end: 300px;
+
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio h3,
+.portfolio a {
+    background-color: #ece4db;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.description {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+}
+
+.plants {
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-block-start: 50px;
+    margin-block-end: 300px;
+}
+
+.plants section {
+    background-color: #fec89a;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-block-start: 40px;
+    margin-block-end: 10px
+}
+
+.plants h3 {
+    text-decoration: underline;
+}
+
+.plants img {
+    height: 400px;
+    width: 310px;
+}
+
+.comment {
+    text-decoration: underline;
+    text-align: right;
+    margin-right: 40px;
+}
+
+
+
