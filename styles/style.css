@@ -186,4 +186,7 @@ footer{
     section {
       flex-direction: column;
     }
+    #resume{
+        flex-direction: column;
+      }
   }
