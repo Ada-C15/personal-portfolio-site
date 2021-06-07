@@ -1,3 +1,17 @@
-header {
+body {
     background-image: url("../images/chris-abney-qLW70Aoo8BE-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 95%;
+    display:flex;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #94A66D;
+    padding: 10px;
+    color: white;
+    font-family: 'Caveat', cursive;
 }
