@@ -106,7 +106,9 @@ header {
     font-weight:lighter;
 }
 
-
+.portfolio tr {
+    vertical-align: text-top;
+}
 .hobbies {
     color: red;
     font-family: "American Typewriter";
