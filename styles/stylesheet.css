@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color:black;
+    font-size: 1.25em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    background:black;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a:hover {
+    color: rgb(253, 1, 119);
+}
+
+header{
+    background-image: url("../images/mountains.jpg");
+    background-size: 130%;
+    background-position: 50% 30%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 63px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* font-family: 'Odibee Sans', cursive; */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+main {
+    /* margin: 20px;
+    margin-bottom: 20px; */
+    border-style: 10px, dotted, black;
+    padding: 50px;
+    color: black;
+    background: white;
+}
+
+main hr {
+    /* border-top: 2px solid rgb(253, 1, 119);  */
+    border-top: 2px solid lightgray;
+}
+
+main h3 {
+    color: black;
+    text-align: left;
+}
+
+main a {
+    color: black;
+    text-decoration: none;
+}
+
+.poetry h3 {
+    text-align: center;
+}
+
+.poetry p {
+    margin: 0;
+    padding: 0;
+}
+
+.about img {
+    max-height: 250px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    max-height: 250px;
+    overflow:hidden;
+    padding-bottom: 10px;
+}
+
+.blog img {
+    max-width: 230px;
+    max-height: 100%;
+    object-fit: cover;
+    position: static;
+}
+
+.blog p {
+    padding-left: 20px;
+    padding-right:-20px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background: black;
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
