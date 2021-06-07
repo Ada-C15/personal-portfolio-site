@@ -1,0 +1,17 @@
+body {
+    background-color: aquamarine;
+
+}
+
+img {
+    max-width: 80vw
+}
+
+nav ul {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* list-style: none; */
+    /* justify-content: center; */
+    /* margin: 0; */
+
+}
