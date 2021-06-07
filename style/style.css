@@ -40,14 +40,16 @@ header {
     font-size: 19px;
 }
 
-.some-facts a {
+.some-facts,
+.portfolio a {
     text-decoration: none;
     background-color: black;
     color: white;
     font-weight: bold;
 }
 
-.some-facts a:hover {
+.some-facts,
+.portfolio a:hover {
     background-color: white;
     color: black;
 }
@@ -103,6 +105,7 @@ header {
     font-size: 40px;
     font-weight:lighter;
 }
+
 
 .hobbies {
     color: red;
