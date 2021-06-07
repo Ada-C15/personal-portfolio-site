@@ -92,8 +92,8 @@ ul {
   color: #2d2a2a;
 }
 
-.hire-btn {
-  border: 2px solid #373636;
+.linkedin {
+  border: 3px solid #373636;
   color: #373636;
   background-color: transparent;
   border: none;
@@ -267,9 +267,13 @@ ul {
 }
 
 .projects p {
-  color: #0f0c0c;
+  /*color: #0f0c0c;
   font-family: calibri;
-  font-size: 16px;
+  font-size: 16px;*/
+  color: #2c2424;
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: bold;
 }
 
 .welcome p:nth-child(1) {
