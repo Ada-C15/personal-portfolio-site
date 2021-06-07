@@ -1,0 +1,146 @@
+
+       
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing:1px ;
+    color:rgb(116, 111, 111) ;
+    
+}
+
+.main-header {
+    background-image: url("images/HeaderBackground.jpg");
+    background-size: cover;
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.nav ul {
+    margin: 0;
+
+}
+.nav li {
+    display: inline
+
+}
+.nav a {
+    display: inline-block;
+    padding: 2em;
+    text-decoration:none;
+    color: rgb(128, 182, 21);
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color:rgba(247, 167, 17, 0.646);
+
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    border-bottom: 1px solid chocolate ;
+    
+   
+}
+.title-large {
+    letter-spacing: 34px;
+    
+    font-size: 4rem;
+    color: red;
+    display: block;
+    font-weight: bold;
+        
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+.section-header {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 2rem;
+    color:skyblue;
+    padding: 5px;  
+            
+}
+        
+  
+.section-subheader {
+    letter-spacing: 15;
+    text-align: center;
+    font-size: 1rem;
+    color: skyblue;
+    padding: 5px;          
+}
+
+.main-footer {
+    background-color: chocolate;
+    display: flex;
+    text-align: center;
+    padding-top: 3px;
+
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+html {
+    background-image:url("Images/HeaderBackground.jpg");
+}
+.button {
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    font-weight: 600;
+    font-size: 13px;
+    background-color:  rgba(247, 167, 17, 0.646);
+    padding: 15px 50px;
+    
+    margin: 0 auto;
+  }
+  .button span {
+    position: relative;
+    z-index: 1;
+  }
+  .button:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 470%;
+    width: 140%;
+    background: #57ed0d;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+    transform: translateX(-100%) translateY(-25%) rotate(45deg);
+  }
+  .button:hover:after {
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
