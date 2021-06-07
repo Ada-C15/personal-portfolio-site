@@ -1,0 +1,244 @@
+* {
+    font-family: 'Sen', sans-serif;
+}
+
+body {
+    margin: 0;
+    /* background-image: url("beautiful-branches.jpeg"); */
+    background-image: url("pink-flowers.jpeg");
+    background-size: cover;
+    background-repeat: space;
+    width: 100%;
+    background-position: center center;
+    position: relative;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.col3 {
+    width: 32%;
+    display: inline-block;
+    margin: .5%;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    /* background-color: white;  */
+    margin-top: 15%; 
+    align-items: center;
+    height: 3em;
+    margin-right: 20px;
+
+}
+
+.half-and-half {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* .illustration {
+    position: relative;
+    background: none;
+}
+
+.illustration h5 {
+    display: none;
+} */
+
+.name {
+    font-size: 200%;
+    padding-right: 5%;
+}
+
+.nav-flex {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav-flex li {
+    margin-right: 20px;
+}
+
+.top-nav {
+    background-color: #708d6e;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.top-nav h4 a {
+    white-space: nowrap;
+    margin-left: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.welcome {
+    padding-top: 5%;
+    position: relative;
+}
+
+.wrapper-box {
+    display: flex;
+    width: 55%;
+    padding: 3%;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, .60);
+    font-size: 1.3em;
+    padding-top: 10%;
+    margin-left: 3%;
+}
+
+a:-webkit-any-link {
+    color: webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#about-top-nav {
+    background-color: #3c66a2;
+    /* background-color: #5e8cca; */
+}
+
+#body-background {
+    /* background-image: url("sunset.JPG"); */
+    background-image: url("beautiful-branches.jpeg");
+}
+
+#bottom {
+    color:#d37083;
+}
+
+#headshot {
+    border-radius: 50%;
+    border: 3px solid #59595e;
+    box-shadow: 0 4px 8px 0 rgb(182 27 27 / 20%), 0 6px 20px 0 rgb(48 10 218 / 19%);
+    max-width: 30%;
+}
+
+#headshot:hover {
+    border: 0px;
+    transform: scale(1.35,1.35);
+}
+
+#hobby-background {
+    background-image: url("cluster-flowers.jpeg");
+}
+
+#illustration {
+    margin: 10% auto;
+    text-align: center;
+}
+
+#illustration li {
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+#portfolio {
+    width: 88%;
+    margin: auto;
+}
+
+#portfolio-background {
+    background-image: url("yellow-flowers.jpeg");
+}
+
+#portfolio-top-nav {
+    background-color: #72903e;
+}
+
+:-webkit-any(article, aside, nav, section)
+h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
