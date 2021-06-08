@@ -55,7 +55,7 @@ footer {
     }
 
 .nav-link :visited {
-    color: #474954;
+    color: #545763;
     text-decoration: none;
 }
 
@@ -224,7 +224,7 @@ hobbies span img {
 }
 
 hobbies span:hover {
-    background-color:#E7EBEE;
+    background-color:#DDE3E4;
 }
 
 hobbies a {
