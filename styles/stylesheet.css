@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 body {
@@ -34,37 +32,35 @@ nav ul {
 
 a:hover {
     color: rgb(253, 1, 119);
+    border-color: black;
 }
 
 header{
     background-image: url("../images/mountains.jpg");
-    background-size: 130%;
+    background-size: 120%;
     background-position: 50% 30%;
     max-width: 100%;
     height: auto;
     margin-top: 63px;
     padding-top: 10%;
     padding-bottom: 10%;
-    /* font-family: 'Odibee Sans', cursive; */
     font-family: 'Poppins', sans-serif;
     color: white;
 }
 
 main {
-    /* margin: 20px;
-    margin-bottom: 20px; */
+    padding: 5% 12% 5% 12%;
     border-style: 10px, dotted, black;
-    padding: 50px;
     color: black;
     background: white;
+    text-align: center;
 }
 
 main hr {
-    /* border-top: 2px solid rgb(253, 1, 119);  */
     border-top: 2px solid lightgray;
 }
 
-main h3 {
+h3 a{
     color: black;
     text-align: left;
 }
@@ -83,28 +79,94 @@ main a {
     padding: 0;
 }
 
-.about img {
-    max-height: 250px;
-}
-
-.blog {
+.portfolio ul {
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-    max-height: 250px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio li {
+    border:5px solid black;
+    padding: 20px;
+    margin: 5px;
+}
+
+.portfolio li:hover {
+    color:rgb(253, 1, 119);
+    background-image: url("../images/code.jpg");
+    background-size: cover;
+    background-position: 50% 30%;
+    border:5px solid rgb(253, 1, 119);
+}
+
+.blog h3 {
+    text-align: left;
+}
+
+.blog-info {
+    display: flex;
+    flex-direction: row;
+    max-height: 225px;
     overflow:hidden;
     padding-bottom: 10px;
 }
 
-.blog img {
-    max-width: 230px;
+.blog-info img {
+    max-width: 30%;
+    min-width: 30%;
     max-height: 100%;
     object-fit: cover;
     position: static;
 }
 
-.blog p {
+.blog-info p {
     padding-left: 20px;
     padding-right:-20px;
+    text-align: left;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.about img {
+    max-height: 225px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.contact li {
+    margin: 0;
+    padding: 0;
+}
+
+.contact img {
+    max-width: 30px;
+    /* test */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github:hover {
+    background-image: url("../images/github-pink.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.linkedin:hover {
+    background-image: url("../images/linkedin-pink.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.email:hover {
+    background-image: url("../images/email-pink.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 footer {
