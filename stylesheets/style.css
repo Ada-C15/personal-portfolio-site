@@ -122,7 +122,10 @@ nav ul li{
     margin: 0px 20px;
 }
 
-nav ul li a{
+
+nav ul li a:hover{
+    background: var(--clr-accent);
+    color: black;
     text-decoration: none;
     color: #333;
 }
@@ -143,7 +146,7 @@ p{
     margin-left: 10%;
     margin-top: 0px;
 }
-/* 
+
 .hobby-pic {
     width: 40%;
     display: flex;
@@ -152,7 +155,7 @@ p{
     justify-content: flex-start;
 
     border-radius: 10px;
-} */
+}
 
 
 
