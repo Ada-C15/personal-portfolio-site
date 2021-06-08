@@ -1,0 +1,48 @@
+.circle{
+    width:75px;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.wgm{
+    width: 273.75px;
+    height: 209.85px;
+    border-radius: 15px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover{
+    transform: translateY(2px);   
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article p{
+    min-width:300px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.workslink, h3{
+    color: black;
+    text-decoration: underline;
+}
+
+.workslink a:visited, h3{
+    color: black;
+}
+
+.workslink h3:hover{
+    transform: translateY(2px);   
+}
