@@ -8,8 +8,11 @@
     
 }
 
+p {
+    font-size: 1.25em;
+}
 .main-header {
-    background-image: url("images/HeaderBackground.jpg");
+    
     background-size: cover;
     padding-top: 40px;
     padding-left: 5px;
@@ -30,7 +33,7 @@
     display: inline-block;
     padding: 2em;
     text-decoration:none;
-    color: rgb(128, 182, 21);
+    color: rgb(78, 116, 3);
     text-align: center;
 }
 
@@ -49,8 +52,7 @@
 }
 .title-large {
     letter-spacing: 34px;
-    
-    font-size: 4rem;
+    font-size: 6rem;
     color: red;
     display: block;
     font-weight: bold;
@@ -86,7 +88,7 @@
 }
 
 .main-footer {
-    background-color: chocolate;
+    background-color: rgba(210, 105, 30, 0.603);
     display: flex;
     text-align: center;
     padding-top: 3px;
@@ -105,9 +107,11 @@
 }
 
 html {
-    background-image:url("Images/HeaderBackground.jpg");
+    background-color:rgba(210, 105, 30, 0.644);
 }
+
 .button {
+    text-decoration: none;
     border: none;
     display: block;
     text-align: center;
@@ -116,11 +120,11 @@ html {
     outline: none;
     overflow: hidden;
     position: relative;
+    color: #eeeeee;
     font-weight: 600;
-    font-size: 13px;
-    background-color:  rgba(247, 167, 17, 0.646);
+    font-size: 15px;
+    background-color: rgba(247, 167, 17, 0.646);
     padding: 15px 50px;
-    
     margin: 0 auto;
   }
   .button span {
@@ -134,7 +138,7 @@ html {
     top: 0;
     height: 470%;
     width: 140%;
-    background: #57ed0d;
+    background: #52b71f;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
@@ -143,4 +147,7 @@ html {
   .button:hover:after {
     -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
     transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
+  a:link{
+      text-decoration: none;
   }
