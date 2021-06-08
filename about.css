@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.about-photo {
+    width: 220px;
+}
+
+.about-text {
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 700px;
+    height: fit-content;
+    padding: 20px;
+}
+
+body {       
+    background: url("N.Lucuab - General Background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+}
+
+.home-about {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    border:solid 7px #382e18;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,.65);
+    padding: 20px;
+}
+
+h1 {
+    margin: unset;
+}
+
+#navbar {
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 15px;
+    text-align: right;
+    transition: .5s;
+}
+
+#navbar a:hover {
+    background-color: rgb(88, 48, 29);
+    text-decoration: underline;
+}
+
+.nav-link {
+    text-decoration: none; 
+    border-bottom: none; 
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.photo-container {
+    margin: auto;
+    padding: 20px;
+}
