@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Viri &mdash; Portfolio</title>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <nav>
+        <ul class="menu format-font">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a class="menu-current-page">PORTFOLIO</a></li>
+            <li><a href="./hobby-blog.html">HOBBIES</a></li>
+            
+        </ul>
+    </nav>
+    
+
+    <header>
+        <h1>my projects...</h1>
+    </header>
+
+    <main>
+        <ul class="projects">
+            <li class="project">
+                <img class="portfolio-img" alt="Super cute geek dog with glasses" src="images/portfolio_dog_1.jpg"/>
+                <p class="project-description"><a class="project-title" href="https://github.com/ViridianaVM/ADA_Unit2_retro-video-store">Video Store API</a><br>
+                    API created to handle the backend of a video store site. In this project I created conventional RESTful CRUD routes for two models 
+                    (Customers and Videos). Created a many-to-many relationship between these models, and performed smoke testing to exercise all the 
+                    endpoints in Postman. The database for this API was deployed to Heroku. You can checkit out <a class="special-link" href="https://viri-video-store-app.herokuapp.com/customers">here</a>.<br>
+                    <b>Tech:</b> Python, Flask, SQLAlchemy, Postman, Heroku.</p>
+            </li>
+
+            <li class="project">
+                <img class="portfolio-img" alt="Super cute geek dog with glasses" src="images/portfolio_dog_2.jpg"/>
+                <p class="project-description"><a class="project-title" href="https://github.com/ViridianaVM/ADA_Unit2_task-list-api">Task List API</a><br>
+                    API created to organize tasks. In this project I created conventional RESTful CRUD routes for two models (Task and Goal), a one-to-many 
+                    relationship between these models, and called another API (Slack API) inside my API. Tasks can be marked as complete, incomplete, organized by 
+                    goals and can recieve notifications about any task update in Slack. The database was deployed to Heroku in this <a class="special-link" href="https://viris-task-list-app.herokuapp.com/tasks">link</a>.<br>
+                    <b>Tech:</b> Python, Flask, SQLAlchemy, Postman, Pytest, Heroku.</p>
+            </li>
+            
+            <li class="project">
+                <img class="portfolio-img" alt="Super cute geek dog with glasses" src="images/portfolio_dog_3.jpg"/>
+                <p class="project-description"><a class="project-title" href="https://github.com/ViridianaVM/ADA-Unit1-Project02-swap-meet">Swap Meet</a><br>
+                    In this project I created several classes (Vendor, Item, Clothing, Decor, Electronics) with different attributes, instance methods and applying 
+                    inheritance for a deeper understanding of OOP. Vendors are able to swap their top items and swap items by category.<br>
+                    <b>Tech:</b> Python, Pytest, OOP.</p>
+            </li>
+
+            <li class="project">
+                <img class="portfolio-img" alt="Super cute geek dog with glasses" src="images/portfolio_dog_4.jpg"/>
+                <p class="project-description"><a class="project-title" href="https://viridianavm.github.io/Typing_Speed_Test-Personal_Project/">Typing Speed Test</a><br>
+                    After taking the learning path <a class="special-link" href="https://www.linkedin.com/learning/paths/become-a-software-developer">Become a Software Developer</a>, I created this website to apply my self-learning knowledge of HTML, CSS and JavaScript. 
+                    The goal is to duplicate the provided tex, exactly. The site notifies if there is an error, if the text has been typed successfully and the time taken to complete.<br>
+                    <b>Tech:</b> HTML, CSS, JavaScript.</p>
+            </li>
+
+            <li class="project">
+                <img class="portfolio-img" alt="Super cute geek dog with glasses" src="images/portfolio_dog_5.jpg"/>
+                <p class="project-description"><a class="project-title" href="https://github.com/ViridianaVM/ADA_Unit2_task-list-api">Tamagotchi</a><br>
+                    After taking the learning path <a class="special-link" href="https://www.linkedin.com/learning/paths/become-a-software-developer">Become a Software Developer</a>, 
+                    I created this project to apply my self-learning knowledge of C# and Object Oriented Programming. This project has a CLI to interact. A Tamagotchi can eat, play and sleep. 
+                    The user can decide which activity wants to do. The Tamagotchi will let the user know if it needs to eat more in order to be able to play and live healthy.<br>
+                    <b>Tech:</b> C#, OOP.</p>
+            </li>
+
+        </ul>
+        
+    </main>
+    
+    
+    <footer>
+        <h2>Let's Keep in Touch</h2>
+        <ul class="contact-list format-font">
+            <li><a href="mailto:viridiana.vzq@gmail.com">myEmail</a></li>
+            <li><a href="https://www.linkedin.com/in/viridiana-vazquez-62b69034/">LinkedIn</a></li>
+            <li><a href="https://github.com/ViridianaVM">GitHub</a></li>
+        </ul>
+        <p>&copy; 2021 ViriVM</p>
+    </footer>
+</body>
+</html>

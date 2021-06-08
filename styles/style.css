@@ -1,0 +1,238 @@
+/*
+---Relative Units Description---
+EM: Relative to the parent element
+REM: Relative to the root element (HTML tag)
+%: Relative to the parent element
+VW: Relative to the viewport’s width
+VH: Relative to the viewport’s height
+*/
+
+
+
+/* --- STYLE FOR MAIN BODY --- */
+
+html{
+    font-family: 'Futura',sans-serif;
+}
+
+body{
+    color: #343434;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 900px;
+    width: 85%;
+    margin: 0 auto;
+    /*grid-template-columns: 1fr 4fr; this makes to divide the main section in 1 and 4 fractions.*/
+}
+
+h1{
+    color: #ff674d;
+    font-weight: 400;
+    font-size: 4em;
+    text-align:center;
+}
+
+/* --HOME-- */
+
+.home-img{
+    max-width: 100%;
+}
+
+.home-text{
+    padding: 50px;
+    text-align: center;
+    letter-spacing: 0.09rem;
+    color: #343434;
+}
+
+/* --ABOUT-- */
+
+.about-img{
+    max-width: 100%;
+    margin-top: 15px;
+    box-shadow: 0 8px 35px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+section h3{
+    font-size: 1.3em;
+    font-weight: lighter;
+    letter-spacing: 0.03rem;
+    text-align: justify;
+    /* I don't like having <br><br> at the end of each paragraph, 
+    but I couldn't change the sapce between <p> in the CSS */
+}
+
+.about-row-col{
+    display: flex; /*This will allow the 2 columns*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-row-col > h3 { /*This apply to <h3> children*/
+    padding: 10px;
+    width: calc(50% - 1.5rem);
+}
+
+.special-link{
+    padding: 0px;
+    border-bottom: 1px dotted;
+    display: inline;
+}
+
+.special-link:hover{
+    padding: 0px;
+    border-bottom: 1px dotted;
+}
+
+
+/* --PORTFOLIO-- */
+.projects{
+    width: 100%;
+    padding: 10px;
+}
+
+.project {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+    margin-bottom: 40px;
+    border-bottom: 2px dotted;
+    list-style: none;
+}
+
+.project:nth-of-type(odd){
+	flex-direction:row-reverse;
+}
+
+.portfolio-img{
+    padding: 5px;
+    width: 25vw;
+}
+
+.project-title {
+	font-size: 1.4em;
+    padding: 0px;
+}
+
+.project-title:hover{
+    padding: 0px;
+    color:#989696;
+}
+
+.project-description {
+	font-size: 1.2em;
+    text-align: justify;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+/*  --HOBBY--  */
+
+.my-background{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    color: rgb(43, 43, 43);
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+/* I used the info in next link:
+https://stackoverflow.com/questions/7241341/can-i-set-an-opacity-only-to-the-background-image-of-a-div
+to set my image as background with opacity without affecting my text */
+.my-background::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    background: url("../images/hobby_YouTube.jpg") center center;
+    background-size: cover;
+    opacity: .6;
+}
+
+.hobby-text{
+    padding: 40px;
+    font-size: 1.2em;
+}
+
+/* --- STYLE FOR HEADER --- */
+
+nav{
+    padding:10px;
+    text-align: right;
+    background-color: #2b2b2b;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.format-font{
+    font-size: 0.95rem;
+    letter-spacing: 0.09rem;
+}
+
+a{
+    color: #ee715b;
+    text-decoration: none; /*removes the underline */
+    padding: 15px;
+}
+
+a:hover{
+    color: #e8e9f0;
+    padding: 15px;
+}
+
+.menu-current-page{
+    color: #989696;
+    /* border-bottom: 1px dotted #ee715b;  set dots underline for menu*/
+}
+
+
+
+/* --- STYLE FOR FOOTER --- */
+
+h2{
+    color: #e8e9f0;
+}
+
+footer{
+    background-color: #2b2b2b;
+    text-align: center;
+    padding: 0.15em 1em;
+}
+
+.contact-list{
+    list-style-type: none; /*removes bullets*/
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a{
+    color: #ee715b;
+    padding: 10px;
+    display: inline-block;
+}
+
+.contact-list a:hover{
+    color: #e8e9f0;
+}
+
+footer p{
+    color: #e8e9f0;
+    font-size: 10px;
+}
