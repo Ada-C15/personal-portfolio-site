@@ -63,11 +63,43 @@ nav {
     color: #3C3744; /* black coffee font */
     display: flex;
     justify-content: flex-end; /* push nav buttons to far right */
-    padding: 15px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
 
 nav a {
     color: #3C3744;
     margin-left: 20px;
     text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 810px;
+    margin: 20px auto 0;
+}
+
+.project {
+    margin: 10px;
+    max-width: 250px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.project p {
+    font-size: 18px;
+    margin-top: 10px;
 }
