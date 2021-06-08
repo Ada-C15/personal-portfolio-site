@@ -1,0 +1,188 @@
+article img {
+    border-radius: 20px;
+    max-width: 200px;
+    margin: 1em .5em .5em 1em;
+}
+
+article li {
+    list-style-type: none;
+}
+
+.blogpic {
+    float: right;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.current-page {
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.5em;
+    background-color: azure;
+}
+
+h1 {
+    margin-block-start: 0px;
+    position: relative;
+    color: white;
+    font-family: fantasy;
+    font-size: 6em;
+    padding-top: 1em;
+}
+
+h3 {
+    font-family: fantasy;
+    text-align: left;
+}
+
+h4 {
+    font-family: fantasy;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    min-height: 400px;
+}
+
+header img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    z-index: -1;
+}
+
+.hobbies img {
+    border-radius: 20px;
+    max-width: 200px;
+    margin: 2em 2em 0em 2em;
+}
+
+.hobbies p {
+    font-family: fantasy;
+    color: lightslategray
+}
+
+.hobbies ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home p::first-letter {
+    font-size: 1.5em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+main .about {
+    text-align: justify;
+}
+
+main article {
+    text-align: center;
+    font-size: 1.5em;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding: 4em;
+}
+
+/*main .pastimes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%; 
+    text-align: justify;
+}*/ /*I was trying to change the layout of my extra page, but couln't get it quite finished*/
+
+main .home {
+    text-align: justify;
+}
+
+main .pastimes {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+main .portfolio {
+    text-align: justify;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+nav {
+    font-family: fantasy;
+    display: grid;
+    background-color: azure;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    text-decoration: none;
+    text-align: center;
+    padding: .75em;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.pastimes li {
+    padding: 2em;
+}
+
+.pastimes p {
+    color: rgb(43, 52, 52);
+    font-size: .75em;
+}
+
+.pastimes ul {
+    display: flex;
+    flex-direction: row;
+    /*flex-flow: column wrap;*/
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.portfolio a:hover {
+    color: navy;
+}
+
+.portfolio img {
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+.portfolio p {
+    font-size: .75em;
+    padding-bottom: 3.5em;
+    color: rgb(43, 52, 52);
+}
+
