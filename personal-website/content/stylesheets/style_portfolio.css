@@ -1,0 +1,185 @@
+*{
+    margin: 0; /* border around picture*/
+    padding:0;
+}
+
+#banner {
+    background-size:cover;
+    background-position: center;
+    height:15vh;
+    background-color: rgb(187, 124, 134);
+     
+}
+
+.banner-text{
+    text-align:center;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px; /* bigger number, the lower the heading' */
+}
+
+.banner-text h2{
+    font-size: 26px;
+    font-family:"Lucida Console","Courier New",monospace;
+    text-align: center;
+}
+
+#section-a{
+    background-color: rosybrown;
+    background-position: center;
+    height:60vh;
+    width:100%;
+    padding:70px 50px;
+}
+
+.section-a-text{
+    text-align:left;
+    color: #fff;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+
+#section-b{
+    background-color: rgb(164, 148, 148);
+    background-position: center;
+    height:80vh;
+    padding:70px 50px;
+}
+
+.section-b-text{
+    text-align:left;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+
+}
+
+#section-c{
+    background-color: rgb(214, 152, 152);
+    background-position: center;
+    height:80vh;
+    padding:70px 50px;
+}
+
+.section-c-text{
+    text-align:left;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+
+}
+
+#section-d{
+    background-color: rosybrown;
+    background-position: center;
+    height:80vh;
+    padding:70px 50px;
+}
+
+.section-d-text{
+    text-align:left;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+
+}
+
+
+
+
+
+/* Navigation Bar */
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right:0;
+    top:0;
+    background:lightcoral;
+    opacity: 0.9;
+    z-index:2;
+}
+
+nav ul li{
+    list-style: none;
+    margin:50px 20px;
+}
+
+nav ul li a{
+    text-decoration: solid;
+    color:white;
+    
+}
+#menulogo{
+    width: 50px;
+    height:50px;
+    background:pink;
+    text-align:center;
+    position:fixed;
+    right:30px;
+    top:20px;
+    border-radius:3px;
+    z-index:3;
+    cursor:pointer;
+}
+
+#menulogo img{
+    width:20px;
+    margin-top:15px;
+}
+
+/* makes it visible on phone screen */
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+    }
+    .banner-btn a{
+        display:block;
+        margin:20px auto;
+    }
+}
+
+/* footer */
+
+
+
+.title-text{
+    text-align:center;
+    margin:20px;
+    font-family: "Lucida Console","Courier New",monospace;
+    background-color: pink;
+    line-height: 35px;
+   
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links .fa{
+    height:40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border:1px solid pink;
+    margin: 5px 5px 10px;
+    color:plum;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.social-links .fa:hover{
+    background:rgb(252, 209, 216);
+}
+
+.social-links p{
+    font-size: 12px;
+    font-family:"Lucida Console","Courier New",monospace;
+}

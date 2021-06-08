@@ -1,0 +1,156 @@
+*{
+    margin: 0; /* border around picture*/
+    padding:0;
+}
+
+#banner {
+    background-size:cover;
+    background-position: center;
+    height:120vh;
+    background-color: rgb(187, 124, 134);
+     
+}
+
+.banner-text{
+    text-align:center;
+    color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px; /* bigger number, the lower the heading' */
+}
+
+.banner-text h1{
+    font-size: 90px;
+    font-family:"Lucida Console","Courier New",monospace;
+    text-align: center;
+}
+
+.banner-text p{
+    font-size: 20px;
+    font-style:normal;
+    text-align: left;
+}
+
+.banner-btn {
+    margin: 50px auto 0;
+}
+
+.banner-btn a{
+    width:150px;
+    text-align: center;
+    text-decoration: none;
+    font-family:"Lucida Console","Courier New",monospace;
+    display: inline-block;
+    color:floralwhite;
+    margin:0 10px;
+    padding:12px 0;
+    border: .5px solid #fff;
+    position:relative;
+    z-index: 1;
+    align-items: center;
+}
+
+.banner-btn a span{
+    width:0;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgb(245, 104, 128);
+    z-index: -1; /* stack order priority */
+    transition: 0.5s;
+    align-items: center;
+}
+
+.banner-btn a:hover span{
+    width:100%;
+}
+
+/* Navigation Bar */
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right:0;
+    top:0;
+    background:lightcoral;
+    opacity: 0.9;
+    z-index:2;
+}
+
+nav ul li{
+    list-style: none;
+    margin:50px 20px;
+}
+
+nav ul li a{
+    text-decoration: solid;
+    color:white;
+    
+}
+#menulogo{
+    width: 50px;
+    height:50px;
+    background:pink;
+    text-align:center;
+    position:fixed;
+    right:30px;
+    top:20px;
+    border-radius:3px;
+    z-index:3;
+    cursor:pointer;
+}
+
+#menulogo img{
+    width:20px;
+    margin-top:15px;
+}
+
+/* makes it visible on phone screen */
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+    }
+    .banner-btn a{
+        display:block;
+        margin:20px auto;
+    }
+}
+
+/* footer */
+
+
+
+.title-text{
+    text-align:center;
+    margin:20px;
+    font-family: "Lucida Console","Courier New",monospace;
+    background-color: pink;
+    line-height: 35px;
+   
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links .fa{
+    height:40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border:1px solid pink;
+    margin: 5px 5px 10px;
+    color:plum;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.social-links .fa:hover{
+    background:rgb(252, 209, 216);
+}
+
+.social-links p{
+    font-size: 12px;
+    font-family:"Lucida Console","Courier New",monospace;
+}
