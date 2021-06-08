@@ -85,7 +85,6 @@
     transition: all 0.5s ease;
 }
 
-
 /* ---------- ABOUT ME SECTION ------------- */
 
 .about {
@@ -120,10 +119,6 @@
     font-size: 20px;
 }
 
-/* .about .col-left {
-    padding-left: 5%;
-    padding-right: 5%;
-} */
 .about .col-left img {
     max-width:100%;
 }
