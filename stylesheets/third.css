@@ -1,0 +1,166 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+.fa-clipboard-list {
+    display: block;
+    font-size: 200px;
+    position: absolute;
+    top: 20%;
+    left: 43%;
+}
+.fa-play-circle {
+    display: block;
+    font-size: 200px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.fa-handshake {
+    display: block;
+    font-size: 200px;
+    position: absolute;
+    top: 20%;
+    left: 18%;
+}
+
+.fa-glass-cheers {
+    display: block;
+    font-size: 200px;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+}
+footer {
+    height: 7vh;
+    background-color: #dbd5d2;
+}
+
+.name {
+    font-size: 20px;
+    color:white;
+}
+
+header {
+    height: 7vh;
+    background-color:#dbd5d2;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+main { 
+    height: 86vh;
+    /* background-color: #f6f2ef; */
+}
+
+main .container {
+    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(autofit, minimax(100px, 1fr));
+    grid-auto-rows: 300px;
+    grid-auto-flow: dense;
+    margin-top: 50px; 
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+.task-list {
+    position: relative;
+    background-color: #f6f2ef;
+    grid-column: 1 / 3;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.task-list p {
+    padding-top: 10px;
+    font-weight: bold;
+}
+.video-store {
+    position: relative;
+    background-color: #f6f2ef;
+    grid-column: 3 / 4;
+    border-radius:  30px; 
+    text-align: center;
+}
+.video-store p {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+
+.swap-meet {
+    position: relative;
+    background-color: #f6f2ef;
+    grid-column: 1 / 2;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.swap-meet p {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.viewing-party {
+    position: relative;
+    background-color: #f6f2ef;
+    grid-column: 2 / 4; 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.viewing-party  p {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3 ease-in-out;
+
+}
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 0;
+    transition: all 0.3 ease-in-out;
+}
+
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+
+} 
+.name {
+    font-size: 20px;
+    color:white;
+}
+
+.project-intro p {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: bold;
+}

@@ -4,25 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-.btn {
-    display: inline-block; 
-    text-decoration: none;
-    border-radius: 200px;
-    margin-top: 25px;
-    padding: 10px 30px;
-    background-color: #dbd5d2;
-    text-align: center;
-    color:white;
 
-}
 footer {
     height: 7vh;
     background-color: #dbd5d2;
-}
-
-.name {
-    font-size: 20px;
-    color:white;
 }
 
 header {
@@ -45,13 +30,28 @@ main .intro {
     position: absolute;
     top: 50%;
     left: 35%;
+    right: 15%;
     transform: translate(-50%, -50%);
-    font-size: 35px;
     padding: 25px;
-    color: white;
+    color: black;
+
+}
+
+main .intro h2 {
+    font-size: 35px;
     letter-spacing: 1px;
     word-spacing: 4px;
     line-height: 1.6;
+}
+
+main .intro p {
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 10px 30px;
+    line-height: 1.6;
+}
+.intro a {
+    color: black;
 }
 
 .homepage {
@@ -61,30 +61,18 @@ main .intro {
 }
 
 .homepage .img {
-    background: linear-gradient( rgba(42, 42, 42, 0.5), rgba(42, 42, 42, 0.5) ), url(../images/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg);
+    background-color: #f6f2ef;
     background-size: cover;
     position: relative;
 
 }
-.homepage .img ::before {
-    position: absolute;
-    background-color: rgba(rgba(24, 22, 22, 0.712), rgba(0, 0, 0, 0.5), blue, alpha);
-}
-.homepage .beige{
-    background-image: url(../images/Untitled\ design\ \(1\).png);
+
+.homepage .priscille-picture{
+    background-image: url(../images/priscille.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.intro {
-    position: relative;
-}
-
-.intro a {
-    position: absolute;
-    top: 85%;
-    left: 25%;
-}
 .nav a {
     color: white;
     text-decoration: none;
@@ -108,7 +96,7 @@ main .intro {
     justify-content: center;
 
 } 
-
-
-
-
+.name {
+    font-size: 20px;
+    color:white;
+}
