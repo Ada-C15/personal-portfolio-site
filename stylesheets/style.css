@@ -11,8 +11,12 @@ body {
 }
 
 a {
-  color : black;
+  color : white;
   text-decoration : none;
+}
+
+.nav-text {
+  color: black;
 }
 
 a:hover {
@@ -53,7 +57,7 @@ h3 {
 
 h3, p {
   font-family : 'Work Sans', sans-serif;
-  color: rgb(5, 5, 5);
+  color: white;
 }
 
 .about-me-p {
@@ -139,7 +143,7 @@ main section {
   border-color : rgb(247, 211, 96);
   border-radius : 20px;
   width : 50vw;
-  background-image: radial-gradient( circle 966px at 6.9% 10.8%,  rgb(92, 123, 237) 0%, rgba(147,186,252,1) 90% );
+  background-color: rgb(54, 121, 95);
   background-size: 100% 20px;
   display : flex;
   flex-direction : column;
@@ -149,10 +153,14 @@ main section {
 }
 
 .projects, .blogs {
-  padding : 0;
   display : flex;
   align-self : flex-start;
   margin-left : 2em;
+  padding: 0.5em;
+  width: 350px;
+  background-color: tomato;
+  border-radius: 10px;
+  box-shadow: 8px 8px;
 }
 
 .social {
