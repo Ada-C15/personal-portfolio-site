@@ -1,53 +1,56 @@
-* {
-    padding: 0;
+body {
     margin: 0;
+    padding: 0;
+}
+#home-page {
+    text-align: center;
 }
 /* styling for nav bar*/
 .navbar {
     background-color: black;
     overflow: hidden;
 }
-
-nav ul {
+.navbar ul {
     list-style-type: none;
     margin:0;
     padding:0;
     display:inline;
     padding-inline-start: 0px;
-}
-nav a {
+} 
+.navbar a {
     text-decoration: none;
     color: white;
-    padding: 1%;
+    padding: 10%;
 }
-nav a:hover {
+.navbar a:hover {
     background-color: blue;
 }
 
-nav ul {
+.navbar ul {
     display: flex;
     justify-content: center;
     align-content: center;
 }
-nav li {
+.navbar li {
     margin: 15px;
     font-size: 1.2em;
 }
 
 /************ styling for home page **********/
-#home-page {
-    background-color: #778899 ;
-    text-align: center;
+#main-homepage {
+    background-color: #404040;
+    margin: 0 10%;
+    color: white;
 }
 
-#intro-section {
-    margin-top: 50px;
-}
-#intro-section h1 {
+#intro-section h1{
     line-height: 1.5em;
-    font-size: 50px;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+#intro-section h2 {
+    font-size: 30px;
+}
 
 
 /* styling for social buttons*/
@@ -66,6 +69,7 @@ nav li {
 /* styling for footer*/
 footer {
     margin-top: 10%;
+    background-color: brown;
 }
 
 
@@ -116,4 +120,24 @@ input[type=submit]:hover {
 
 /********* styling for portfolio page **********/
 
-/* styling for resume page*/
+/********* styling for resume page **********/
+
+@media screen and (max-width: 600px) {
+    #resume-mainpage {
+        margin: 5%;
+    }
+}
+@media screen and (min-width: 600px) {
+    #resume-mainpage {
+        margin: 5% 10%; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #resume-mainpage {
+        margin: 5% 20%;
+    } 
+}
+#edu span {
+    font-style: italic;
+}
