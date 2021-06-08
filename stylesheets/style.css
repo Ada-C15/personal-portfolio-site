@@ -1,0 +1,180 @@
+/* CSS for devices w/ different screen sizes */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+body {
+    background-color: #ffff;
+}
+
+/* NAVIGATION BAR */
+.navigation_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffff;
+}
+
+.navigation_ul li {
+    float: right;
+}
+
+.navigation_links {
+    display: block;
+    color: #4361EE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation_links:hover {
+    color: #f72585;
+}
+
+.active {
+    background-color: 3a0ca3;
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 2.5rem;
+}
+
+/* TYPOGRAPHY */
+head,
+#navigation-bar,
+header {
+    font-family: 'Mulish', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+footer p {
+    font-size: x-small;
+}
+
+/* HEADER BANNER */
+.homepage_header {
+    padding: 13%;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.name,
+strong {
+    color: #f72585;
+}
+
+.wrap_header h1 {
+    margin: 0;
+}
+
+
+h4 {
+    margin: 0;
+}
+
+/* ABOUT ME*/
+.about-me p {
+    display: 40%;
+}
+
+img {
+    width: 750px;
+    float: left;
+    padding: 40px;
+    display: flex;
+}
+
+.container_about_me {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.about_me_image {
+    flex-basis: 40%;
+}
+
+.about_me_text {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.about_me_text h3 {
+    text-align: center;
+    color :#1abc9c;
+}
+
+/* BLOG */
+.blog-heading {
+    color: #1abc9c;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container_blogs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog_image {
+    flex-basis: 40%;
+}
+
+.blog_text {
+    height : 400px;
+    width : 300px;
+    border : 7px;
+    border-color :#1abc9c;
+    display : flex;
+    flex-direction : column;
+    flex-wrap : wrap;
+    background-size: 100% 20px;
+}
+
+.blog-excerpt {
+    font-size: small;
+    font-style: italic;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    color: #1abc9c;
+}
+
+.portfolio h4, 
+.portfolio a {
+    margin-right: 200px;
+    margin-left: 200px;
+    color: black;
+}
+
+.project_description {
+    font-style: italic;
+    color: black;
+    text-align: center;
+    font-size: small;
+}
+
+
+
