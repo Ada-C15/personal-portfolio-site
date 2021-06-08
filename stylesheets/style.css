@@ -118,7 +118,6 @@ h2 {
 
 }
 main {
-    min-height: 2500px;
     margin-top: 0px;
 }
 
@@ -170,6 +169,7 @@ strong {
 #portfolio-main {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 projects {
