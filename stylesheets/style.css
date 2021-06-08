@@ -109,3 +109,11 @@ body {
     border: 0.5em solid #f6be9a;
     border-radius: 0px;
   }
+
+  .blog {
+    display: flex;
+    border-box: blue;
+    min-width: 20vw
+    text-align: center;
+
+  }
