@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "header header header header" "nav nav nav nav" "main main main main " "footer footer footer footer";
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-rows: repeat(4, .5fr, .5fr, 2.5fr, .5fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+
+/* Style the top navigation bar */
+
+header {
+    grid-area: header;
+    display: block;
+    text-align: center;
+}
+
+.topnav {
+    grid-area: nav;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+/* Style the topnav links */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+.main {
+    grid-area: main;
+    background-color: gold;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Footer in absolute positon at bottom of the page */
+
+.footer {
+    grid-area: footer;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
