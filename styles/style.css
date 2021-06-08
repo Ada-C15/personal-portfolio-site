@@ -1,0 +1,169 @@
+/* Uses at least one CSS file (likely named style.css)
+Has the following tags: <header>, <footer>, and <nav>
+Inside of the <nav>, there are links to all of the other pages */
+
+body {
+    margin:0;
+    font-family: "Roboto Mono", monospace;
+}
+
+.color1-bg{
+    background-color: #111;
+    width: 100%;
+}
+
+.color2-bg{
+    background-color: #2d2d31;
+}
+
+.font-color-1{
+    color: #b3b9c5;
+}
+/* columns for spacing */
+.standard-width {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* nav bar decoration */
+header {
+    background-color: #1f2022;
+}
+
+figure {
+    margin:0;
+    width:100%
+}
+
+img {
+    max-width: 100%;
+    margin: 4.5em;
+}
+
+img.portrait{
+    width: 80%;
+    border-radius: 25px;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.center-content{
+    align-items: center;
+    justify-content: center;
+}
+
+.padding-top-bottom{
+    padding: 3rem 0 3rem;
+}
+
+.half-width-on-dt {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.three-fourths-width-on-dt{
+    width: 75%;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style-type: none;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#E9C46A;
+}
+
+h2 {
+    padding: 0;
+    color:#E9C46A;
+    font-size: 2em;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 1.5rem;
+}
+
+h3 {
+    padding: 0;
+    color:#E9C46A;
+    font-size: 2em;
+}
+
+.blurb h3 {
+    border:none;
+}
+
+.blurb p {
+    font-size: 1.2rem;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: .75rem 0;
+    margin: 2rem;
+    grid-gap: 1.5rem;
+}
+
+.icon {
+    font-size: 2rem;
+}
+/* rules for desktop size */
+@media (min-width:787px) {
+    .half-width-on-dt{
+        width: 50%;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: .75rem 0;
+        margin: 1rem;
+        grid-gap: 3rem;
+}
+    }
+
+div.navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0 1rem;
+}
+
+.website-title {
+    color: ghostwhite;
+    font-family: monospace;
+    font-weight: 700;
+    align-items: center;
+    margin-left: 1em;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 2em;
+}
+
+footer {
+    font-size: .75em;
+}
+
+.social-icons a img{
+    height: 40px;
+    width: 40px;
+}
+
+nav {
+    border: 10px;
+    color: ghostwhite;
+}
