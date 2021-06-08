@@ -15,6 +15,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 main {
@@ -38,6 +40,14 @@ main {
     padding-top: 50px;
 }
 
+.header img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
 
 .footer {
     grid-row: auto;
@@ -59,6 +69,26 @@ nav{
 }
 .navlink:hover{
     color:#c9c9c9;
+
+}
+/* COMMUNITY ACTION HEADER*/
+.communityheader img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+/* COMMUNITY ACTION FEATURED SPACE*/
+.post-content img {
+    
+    float: right;
+    width: 50%;
+    padding: 5%;
+}
+.post-content p {
+    display:flex
 }
 /*COMMUNITY ACTION EXTRA RESOURCES*/
 
@@ -68,6 +98,7 @@ nav{
     flex-basis: 100%;
     flex-grow: 1;
     color:black;
+    justify-content: space-around;
 }
 
 .additional-group h2{
@@ -79,6 +110,7 @@ nav{
 }
 
 .featured-group {
+    width:25%;
     flex-grow: 1 21%;
     color: black;
     text-align: center;
@@ -86,9 +118,12 @@ nav{
 
 }
 
+.featured-group img {
+    width:100% !important;
+}
+
 .featured-group img{
-    
-    max-width: 50%;
+    width: 100%;
     height: auto; 
 }
 
@@ -103,4 +138,13 @@ nav{
     text-decoration: none;
     color: #e26565;
     font-size: 20px;
+}
+/*ABOUT ME SECTION*/
+
+.about-me {
+    
+}
+
+.about-me-photos img {
+  
 }
