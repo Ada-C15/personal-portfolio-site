@@ -1,0 +1,157 @@
+body {
+    background-color: #cfe0dd;
+    color: #555b6e;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    bottom: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+header h1 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+header img {
+    margin-top: 90px;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    padding: 30px 10%;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 85%;
+    margin-top: 0;
+}
+
+.navbar a {
+    float: center;
+    color: #555b6e;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    list-style: none;
+}
+
+.navbar a:hover {
+    background-color: #89b0ae;
+    color: #faf9f9;
+  }
+
+.navbar .current-page {
+    background-color: #89b0ae;
+    color: white;
+  }
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+
+/* portfolio formatting */
+.project {
+    padding: 10px;
+}
+
+.project a {
+    color: #6c8d8b;
+}
+
+.project a:hover {
+    color: white;
+}
+
+.project p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/* hobbies formatting */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    height: 390px;
+    margin: auto;
+    text-align: center;
+    background: #89b0ae;
+}
+
+article img {
+    display: flex;
+    width: 250px;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template: 1 fr 1 fr 1 fr 1 fr 1 fr 1 fr 1 fr;
+    padding-bottom: 60px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.card2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.card3 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.card a {
+    color: #555b6e;
+    ;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: white;
+}
