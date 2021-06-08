@@ -1,0 +1,25 @@
+/* broad strokes */
+h4 {
+    font-style:italic;
+}
+header {
+    margin: 50px 0px 10px 0px;
+}
+p {
+    font-size: 1.25em;
+}
+
+hr {
+    margin: 15px 0px;
+}
+
+article > h3{
+    text-decoration: underline;
+}
+
+
+/* paragraph styling */
+p::first-letter {
+    font-size: 2em;
+}
+

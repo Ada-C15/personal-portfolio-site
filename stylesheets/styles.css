@@ -1,0 +1,213 @@
+/* broad element applications */
+@keyframes fadein {
+    from { opacity: 0; }
+    to {opacity : 1; }
+  }
+
+body {
+    background-image: url("/Users/alisonmcginley/developer/personal-portfolio-site/images/sincerely-media-pmCoGdvAaag-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fefae0;
+    padding: 3em 5%;
+    animation: 2s ease-out 0s 1 fadein;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    text-align: left;
+    width: 40%;
+    font-size: 2.25em;
+}
+
+h1 {
+    font-size: 1em;
+}
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+h4 {
+    font-size: 1.5em;
+}
+hr {
+    margin-top: 15%;
+    margin-left: 3px;
+}
+
+p {
+    font-size: 1em;
+}
+
+ul {
+    list-style-type: none;
+    margin:0 ;
+    padding: 0;
+}
+
+/* social media icons */
+
+.links li {
+    float: left;
+    display: inline;
+    margin-right: 10px;
+}
+
+.links a {
+    color: #fefae0;
+    font-size: 25px;
+    transition: font-size 1.5s;
+}
+
+.links a:hover {
+    font-size: 30px;
+}
+
+/* Website Navigation Bar "learn more" */
+nav {
+    margin: 10%;
+    display: inline;
+    text-align: left;    
+}
+
+nav h3 a{
+    color: #847577;
+    font-size: 1.1em;
+}
+
+/* Learn More options */
+
+.container {
+    width: 50%;
+    height: 25%;
+    border-radius: 15px;
+    font-family: 'Hind', sans-serif;
+    padding: 1% 3%;
+    display: grid;
+    grid-template: 1 / 1fr 1fr 1fr;
+}
+
+.container a {
+    color: #fefae0;
+}
+
+/* sets learn more options visibility etc. */
+.container #about {
+    animation: 1.75s ease-out 0s 1 fadein;
+}
+
+.container #code-journal {
+    animation: 2.75s ease-out 0s 1 fadein;
+}
+
+.container #portfolio {
+    animation: 3.75s ease-out 0s 1 fadein;
+}
+
+/* sets learn more options columns */
+#about {
+    grid-column: 1/2;
+}
+
+#code-journal {
+    grid-column: 2/3;
+}
+#portfolio {
+    grid-column: 3/4;
+}
+
+/* sets hover styling for learn more links */
+/* nav:hover #about, nav:hover #code-journal, nav:hover #portfolio{
+    transition: letter-spacing
+} */
+#about a, #code-journal a, #portfolio a {
+    transition: letter-spacing 1.5s;
+}
+
+#about:hover a, #code-journal:hover a, #portfolio:hover a {
+    opacity: 1;
+    text-align: justify;
+    text-align-last: justify;
+    letter-spacing: 1em;
+}
+
+
+/* Footer display */
+footer {
+    background-color: #f8f5f1;
+    opacity: 65%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #847577;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    }
+
+/* Home page footer links */
+footer .links {
+    padding-left: 2.25em;
+}
+
+footer .links a {
+    color: #847577;
+    margin-bottom: .25em;
+    transition: font-size 1.5s;
+    font-size: 15px;
+}
+
+footer .links a:hover {
+    color:#52181b ;
+    font-size:20px;
+}
+
+footer h4, footer p {
+    margin: .1em 2em;
+}
+
+/* supplemental pages */
+
+/* top left link home */
+.homelink {
+    color:#fefae0;
+    font-size: 1.25em;
+    transition: font-size 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 5px;
+}
+.homelink:hover {
+    font-size: 35px;
+}
+/* supplemental page footer links */
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content:flex-start;
+    padding-left: 25px;
+}
+.footer-links a {
+    color: #847577;
+    padding-right: 25px;
+    font-size: 1.25em;
+    transition: letter-spacing 1s, color 1s;
+
+}
+.footer-links a:hover {
+    font-size: 1.5em;
+    color: #52181b;
+    text-align: justify;
+    text-align-last: justify;
+    letter-spacing: .25em;
+}

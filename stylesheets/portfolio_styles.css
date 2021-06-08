@@ -1,0 +1,63 @@
+/* broad styling strokes */
+@keyframes fadein { 
+    from { opacity: 0; }
+    to {opacity : 1; }
+  }
+
+header {
+    font-size: 2em;
+    margin: 50px 0px 10px 0px;
+}
+hr {
+    margin: 15px 0px;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.25em;
+    font-style: italic;
+}
+
+a {
+    transition: letter-spacing 1s;
+}
+
+/* portfolio details */
+.port-container {
+    width: 100%;
+    height: 50vw;
+    display: grid;
+    grid-template: 2 /3;
+    border-radius: 30px;
+}
+
+.port-container a {
+    color: #fbfbf2;
+    font-size: 1.5em;
+}
+
+a:hover {
+    color: #cfd2cd;
+    letter-spacing: .2em;
+}
+
+#apis {
+    grid-column: 1/2;
+}
+
+#oop {
+    grid-column: 2 / 3;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 50px;
+    border-radius: 25px;
+    animation: 2.5s ease-out 0s 1 fadein;
+}
+

@@ -1,0 +1,29 @@
+/* broad styling strokes */
+@keyframes fadein {
+    from { opacity: 0; }
+    to {opacity : 1; }
+  }
+header {
+    animation: 1s ease-out 0s 1 fadein;
+    margin: 50px 0px 10px 0px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+    margin: 15px 0px;
+}
+
+article {
+    animation: 1.5s ease-out 0s 1 fadein;
+    font-size: 1.5em;
+}
+
+/* styles first letter of each article */
+article p::first-letter {
+    font-size: 1.6em;
+}
+
