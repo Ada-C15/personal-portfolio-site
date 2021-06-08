@@ -1,0 +1,189 @@
+body {
+  margin : 0;
+  padding : 0;
+  background : rgb(254, 220, 50);
+  font-family : 'Work Sans', sans-serif;
+}
+
+.current-page {
+  font-weight : bold;
+  color : black;
+}
+
+a {
+  color : white;
+  text-decoration : none;
+}
+
+.nav-text {
+  color: black;
+}
+
+a:hover {
+  font-weight : bold;
+}
+
+.media-buttons {
+  margin-left : 4.2em;
+  display : flex;
+  justify-content : flex-end;
+}
+
+.about-title {
+  margin-left : 2.2em;
+}
+
+.home-title, .code-journal-title {
+  margin-left : 1em;
+}
+
+#home img {
+  width : 150px;
+  float : right;
+  margin : 0 1em 1em 1em;
+}
+
+h2 {
+  font-size : 3em;
+  text-align : right;
+  margin-bottom : 0;
+  margin-top : 0;
+}
+
+h3 {
+  font-size : 1em;
+  text-align : right;
+}
+
+h3, p {
+  font-family : 'Work Sans', sans-serif;
+  color: white;
+}
+
+.about-me-p {
+  height : fit-content;
+  font-size : 1em;
+  padding : 1em;
+}
+
+header {
+  grid-column : span 2;
+  text-align : right;
+}
+
+nav {
+  margin-top : 4em;
+  padding : 1em 1em;
+  padding-bottom : 0;
+  justify-content : right;
+}
+
+nav ul {
+  margin-bottom : 0;
+  padding : 0;
+}
+
+nav li {
+  display : inline;
+  text-align : center;
+  margin : 0.4em;
+  bottom : 0;
+  padding : 0.7em;
+  text-decoration : none;
+}
+
+main {
+  max-width : 60em;
+  margin-left : auto;
+  margin-right : auto;
+  margin-top : 4em;
+}
+
+main section {
+  padding : 0 1em;
+  margin-top : 1rem;
+}
+
+.image {
+  justify-content : flex-end;
+  height : 70vh;
+}
+.intro, .portfolio-content {
+  display : flex;
+  max-height : 150rem;
+}
+
+.intro-image{
+  object-fit : fill;
+  height : 550px;
+  width : 465px;
+  border-radius : 10px;
+  border-color : rgb(247, 211, 96);
+}
+
+.name {
+  margin-left : 12.6em;
+  margin-right : 2em;
+  margin-bottom : 8em;
+  align-self : flex-end;
+}
+
+.portfolio-title {
+  margin-left : 9.5em;
+  margin-right : 2em;
+  margin-bottom : 1em;
+  align-self : flex-end;
+}
+
+.portfolio-content, .blog-content {
+  object-fit : fill;
+  height : 550px;
+  width : 450px;
+  border : inset 7px;
+  border-color : rgb(247, 211, 96);
+  border-radius : 20px;
+  width : 50vw;
+  background-color: rgb(54, 121, 95);
+  background-size: 100% 20px;
+  display : flex;
+  flex-direction : column;
+  flex-wrap : wrap;
+  align-items : center;
+  justify-content : space-evenly;
+}
+
+.projects, .blogs {
+  display : flex;
+  align-self : flex-start;
+  margin-left : 2em;
+  padding: 0.5em;
+  width: 350px;
+  background-color: tomato;
+  border-radius: 10px;
+  box-shadow: 8px 8px;
+}
+
+.social {
+  width : 100%;
+  height : 100%;
+  margin : auto;
+}
+
+img.media {
+  width : 2em;
+  height : 2em;
+}
+
+footer {
+  position : fixed;
+  bottom : 0;
+  left : 0;
+  padding : 1em 2em;
+  margin-top : 1em;
+  width : 100%;
+}
+
+footer p {
+  margin : 0;
+  text-align : center;
+}
