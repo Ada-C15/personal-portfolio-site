@@ -1,0 +1,241 @@
+/* body */
+body {
+    font-family: Verdana, Geneva, 
+    Tahoma, sans-serif;
+    background-image: url(/Users/marisamorales/Developer/projects/personal-portfolio-site/images/thistlerepeat.jpg);
+    background-position: bottom;
+    background-size: 30em;
+}
+
+/* Paragraph */
+p {
+    line-height: 150%;
+    padding: .2em;
+    color: #183642;
+    background-color: #d5cad6;
+    border: 2px solid #d5cad6;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: .8em;
+    margin-top: 1em;
+    line-height: 150%;
+    background-color: #d5cad6;
+    border: 2px solid #d5cad6;
+    border-radius: 5px;
+}
+
+/* Links */
+a:visited {
+    color: #9FD8CB;
+}
+a:hover {
+    color: #FFE8E1;
+}
+
+/* Headings */
+h1 {
+    text-align: left;
+    font-size: 5em;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-style: italic;
+}
+h2 {
+    text-align: left;
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: italic;
+}
+h4 {
+    padding: .5em;
+    margin: .5em;
+    color: #73628A;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: #FFE8E1 1px 0 10px;
+}
+
+/* Styling for the Navigation Bar */
+.link-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.link-menu .menu-item {
+    list-style-type: none;
+    font-family: Verdana, Geneva, 
+    Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/* Styling for the image and text on each page */
+.splash {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    overflow: visible;
+    position: relative;
+    align-items: baseline;
+    min-height: 350px;
+    border: 2px solid #d5cad6;
+    border-radius: 5px;
+}
+.splash img {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+.splash-text {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 1rem;
+    color: #d5cad6;
+    text-shadow: #73628a 1px 0 10px;
+}
+
+/* Style for the portfolio page */
+.portfolio-menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: ; */
+    justify-content: space-between;
+    min-height: 2em;
+    border: 2px solid #73628a;
+    border-radius: 5px;
+    
+}
+.portfolio-item {
+    flex: 1 1 auto;
+    list-style-type: none;
+    position: relative;
+    align-self: normal;
+    overflow: visible;
+    height: auto;
+    width: 25vw;
+    padding: 1em;
+    margin: 1em;
+    background-color: #d5cad6;
+    border: 2px solid #73628a;
+    border-radius: 5px;
+}
+.portfolio-item img {
+    display: block;
+    max-height: 30vh;
+    width: 100%;
+    position: relative;
+    object-fit: scale-down;
+    padding-top: .4em;
+}
+.skills {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #F1856A;
+}
+.portfolio-item:hover .skills {
+    opacity: 1;
+}
+.skills h3 {
+    color: #FFE8E1;
+    font-size: 1.5em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.portfolio-item p {
+    padding: .2em;
+    margin-top: .5em;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+}
+
+/* Hobbies and Interests Styling */
+.gallery-menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    min-height: 2em;
+    border: 2px solid #73628a;
+    border-radius: 5px;
+    align-content: center;
+}
+.gallery-item {
+    flex: 1 1 auto;
+    list-style-type: none;
+    position: relative;
+    align-self: auto;
+    overflow: visible;
+    height: auto;
+    width: 25vw;
+    padding: 1em;
+    margin: 1em;
+    background-color: #d5cad6;
+    border: 2px solid #73628a;
+    border-radius: 5px;
+}
+.gallery-item img {
+    display: block;
+    align-self: auto;
+    max-height: 50vh;
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+    padding-top: .4em;
+}
+.gallery-item:hover .flip {
+    opacity: 1;
+}
+.flip {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FFE8E1;
+}
+.flip img {
+    color: #FFE8E1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.gallery-item p {
+    margin-left: 1em;
+    font-size: 1em;
+    text-align: left;
+    background-color: transparent;
+    border-color: transparent;
+}
