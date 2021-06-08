@@ -53,3 +53,16 @@ nav a:hover {
 #contact {
     text-align: left;
 }
+
+img {
+    max-width: 45%;
+    height: auto;
+}
+
+header {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
