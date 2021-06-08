@@ -55,7 +55,7 @@
     transition: all 0.5s ease;
 }
 
-/* ---------- MAIN SECTION --------- */
+/* ---------- INDEX SECTION --------- */
 
 #front-cover {
     background-image: url(../images/IMG_4773.JPG);
@@ -63,10 +63,6 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-/* main {
-    margin:0;
-} */
 
 .hero-container {
     color: black;
@@ -111,17 +107,25 @@
     text-transform: uppercase;
 }
 
-.about .col-left, .about-me .col-right {
-    width: 50%;
-    float: left;
-}
-
 .about .col-left {
+    width: 45%;
+    float: left;
     padding-left: 5%;
     padding-right: 5%;
 }
+
+.about .col-right {
+    width: 40%;
+    float: left;
+    font-size: 20px;
+}
+
+/* .about .col-left {
+    padding-left: 5%;
+    padding-right: 5%;
+} */
 .about .col-left img {
-    max-width: 100%;
+    max-width:100%;
 }
 
 /* ---------- PORTFOLIO SECTION ------------- */
