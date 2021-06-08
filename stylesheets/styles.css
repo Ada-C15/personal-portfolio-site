@@ -47,6 +47,7 @@ ul {
     margin:0 ;
     padding: 0;
 }
+
 /* social media icons */
 
 .links li {
@@ -58,6 +59,7 @@ ul {
 .links a {
     color: #fefae0;
     font-size: 25px;
+    transition: font-size 1.5s;
 }
 
 .links a:hover {
@@ -158,12 +160,13 @@ footer .links {
 footer .links a {
     color: #847577;
     margin-bottom: .25em;
+    transition: font-size 1.5s;
     font-size: 15px;
 }
 
 footer .links a:hover {
     color:#52181b ;
-    font-size: 20px;
+    font-size:20px;
 }
 
 footer h4, footer p {
@@ -192,8 +195,13 @@ footer h4, footer p {
     color: #847577;
     padding-right: 25px;
     font-size: 1.25em;
+    transition: letter-spacing 1s, color 1s;
+
 }
 .footer-links a:hover {
     font-size: 1.5em;
-    color: #52181b
+    color: #52181b;
+    text-align: justify;
+    text-align-last: justify;
+    letter-spacing: .25em;
 }
