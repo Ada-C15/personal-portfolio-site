@@ -1,0 +1,50 @@
+.interesting {
+    font-style: italic;
+}
+
+li span {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+.break {
+    word-wrap: normal;
+}
+
+h3 {
+    margin: auto; 
+    padding: 13px; 
+    width: 300px; 
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+img {
+    padding: 0.5em; 
+    width: 288px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info {
+    border: 1px solid whitesmoke; 
+    margin: auto;
+    padding: 0.3em; 
+    width: 290.8px; 
+    font-family: sans-serif; 
+    color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    border: 2px solid gray; 
+    width: 330px; 
+    height: 600px; 
+    border-radius: 20px;
+    background: #ff4d4d;
+}
