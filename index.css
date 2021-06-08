@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header {   
+    width: 100vw;
+    height: 100vh;
+    background-image: url("N.Lucuab - Website Homepage.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 15px;
+    text-align: right;
+    transition: .5s;
+}
+
+#navbar a:hover {
+    background-color: rgb(88, 48, 29);
+    text-decoration: underline;
+}
+
+.nav-link {
+    text-decoration: none; 
+    border-bottom: none; 
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+}
