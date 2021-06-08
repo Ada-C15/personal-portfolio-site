@@ -111,6 +111,13 @@ a:hover .fa-linkedin {
     cursor: pointer;
     float: right;
 }
+
+.image-box {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
 nav{
     flex: 1;
     padding-left: 60px;
