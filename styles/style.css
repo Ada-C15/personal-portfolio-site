@@ -18,15 +18,15 @@ body {
     background-color: whitesmoke;
 }
 
+.current-page {
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+
 footer {
     text-align: center;
     font-size: 0.5em;
     background-color: azure;
-}
-
-.current-page {
-    font-weight: bolder;
-    font-size: 1.25em;
 }
 
 h1 {
@@ -101,6 +101,13 @@ main article {
     padding: 4em;
 }
 
+/*main .pastimes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%; 
+    text-align: justify;
+}*/
+
 main .home {
     text-align: justify;
 }
@@ -153,6 +160,7 @@ nav ul {
 .pastimes ul {
     display: flex;
     flex-direction: row;
+    /*flex-flow: column wrap;*/
 }
 
 .portfolio a {
@@ -161,6 +169,10 @@ nav ul {
     font-family: fantasy;
     font-weight: bold;
     font-style: italic;
+}
+
+.portfolio a:hover {
+    color: navy;
 }
 
 .portfolio img {
@@ -173,3 +185,4 @@ nav ul {
     padding-bottom: 3.5em;
     color: rgb(43, 52, 52);
 }
+
