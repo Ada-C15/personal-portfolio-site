@@ -1,0 +1,83 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 7vh;
+    background-color: #dbd5d2;
+}
+
+header {
+    height: 7vh;
+    background-color:#dbd5d2;
+}
+
+.how-to {
+    background-color: cadetblue;
+    height: 50%;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+.intro {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+main { 
+    height: 86vh;
+    background-color: #f6f2ef;
+    text-align: center;
+
+}
+
+
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3 ease-in-out;
+
+}
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 0;
+    transition: all 0.3 ease-in-out;
+}
+
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+
+} 
+.name {
+    font-size: 20px;
+    color:white;
+}
+
+p {
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 1.6;
+}
+
+.poem p {
+    padding-bottom: 20px;
+}
