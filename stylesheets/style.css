@@ -11,7 +11,8 @@ body {
     color: #6b705c;
     text-align: center;
     font-family: 'Kristi', cursive;
-    font-size: 2em
+    font-size: 2em;
+  
   }
 
   h1 {
@@ -57,9 +58,7 @@ body {
     max-height: 200vh;
   }
   
-  main section {
-    padding: 0 1em;
-  }
+  
   
   nav {
     
@@ -78,8 +77,11 @@ body {
     margin: 0.25em;
     padding: 0.25em;
     background: #b7b7a4;
-    border-radius: 20%;
+    border-radius: 25%;
+    background: url("https://i.pinimg.com/564x/ba/76/58/ba765836dc5cedf594c22af9a9f7b4f7.jpg");
   }
+
+ 
   
   a, a:visited {
     color: #7f8375;
