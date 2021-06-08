@@ -4,7 +4,11 @@
   }
 header {
     animation: 1s ease-out 0s 1 fadein;
-    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
 }
 article {
     animation: 1.5s ease-out 0s 1 fadein;
