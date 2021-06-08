@@ -1,0 +1,58 @@
+.circle{
+    width:75px;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.self{
+    width: 295.2px;
+    height: 399.6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-color: black;
+    box-shadow: 3px 3px 3px #333;
+    border-radius: 5px;
+}
+
+.about{
+    margin: auto;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+}
+
+.abt-blurb{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+article h3{
+    text-align: center;
+}
+
+.selfsec p {
+    width: 50%;
+}
+
+.selftext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+main {
+    min-width:900px;
+    max-width: 1500px;
+    margin: auto;
+}
+

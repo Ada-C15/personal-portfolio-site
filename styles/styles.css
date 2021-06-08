@@ -1,0 +1,88 @@
+/* Add a black background color to the top navigation */
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: "Optima";
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+  }
+
+/* Style the links inside the navigation bar */
+.topnav a, a:visited {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  } 
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: gray;
+    color: white;
+  } 
+
+  footer{
+  border-top: 1px solid;
+  border-color: #333;
+  background-color: (245, 245, 245);
+	display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+}
+
+/* footer a:hover{
+  box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,2), 
+              inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+              -0.5px -0.5px 0px rgba(255,255,255,1),
+              0.5px 0.5px 0px rgba(0,0,0,0.15),
+              0px, 12px, 10px, -10px rgba(0,0,0,0.05);
+  border: .2px solid rgba(0,0,0,0.1);           
+} */
+
+.footericon:hover{
+  box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,2), 
+              inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+              -0.5px -0.5px 0px rgba(255,255,255,1),
+              0.5px 0.5px 0px rgba(0,0,0,0.15),
+              0px, 12px, 10px, -10px rgba(0,0,0,0.05);
+  border: .2px solid rgba(0,0,0,0.1);  
+  transform: translateY(2px);         
+}
+
+.footericon{
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+  margin-right: 40px;
+  margin-left: 40px;
+  border-radius: 8px;
+  align-items: center;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), 
+              -6px -6px 10px -1px rgba(255,255,255,0.7);
+  transition: 0.5s;
+}
+
+.title{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+hr{
+    width: 75%;
+}
+
+
