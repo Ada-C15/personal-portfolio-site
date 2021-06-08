@@ -1,0 +1,55 @@
+h1 {
+    text-align: right; 
+    color: #eaa198;
+    font: 55px Arial, sans-serif;
+}
+
+h2 {
+    font: 25px Arial, sans-serif;
+    color: #eaa198;
+}
+
+p {
+    font: 20px Arial, sans-serif; 
+    text-align: right; 
+}
+
+nav {
+    display: block;
+    height: 50px;
+    overflow: hidden;
+    line-height: 50px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #7e6b66;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+} 
+
+nav a:hover {
+    background-color: #ddd;
+    color: limegreen;
+}
+
+.logo img{
+    float:left;
+}
+
+#home-title {
+    text-align: left;
+    font-weight: bolder;
+}
+
+#home-content {
+    text-align: left;
+    color:dimgrey
+}
+
+#contact {
+    text-align: left;
+}
