@@ -76,26 +76,52 @@ main a {
 
 .poetry p {
     margin: 0;
-    padding: 0;
 }
 
 .portfolio ul {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /* flex-direction: row;
+    justify-content: center; */
     flex-wrap: wrap;
 }
 
 .portfolio li {
-    border:5px solid black;
-    padding: 20px;
-    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    max-height: 225px;
+    max-width: 550px;
+    overflow:hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 3px solid gray;
 }
 
-.portfolio li:hover {
+.portfolio hr {
+    position: static;
+    margin-right: 30px;
+}
+
+.portfolio li p {
+    padding-left: 30px;
+    padding-right:30px;
+    max-width: 250px;
+    font-size: 0.8em;
+}
+
+.portfolio li a {
+    border:5px solid black;
+    width: 130px;
+    position: static;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+    line-height: 100%;
+}
+
+.portfolio li a:hover {
     color:rgb(253, 1, 119);
-    background-image: url("../images/code.jpg");
+    background-color: black;
     background-size: cover;
     background-position: 50% 30%;
     border:5px solid rgb(253, 1, 119);
@@ -151,19 +177,20 @@ main a {
     max-height: 225px;
     margin-top: 10px;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 
-.contact li {
-    margin: 0;
+.contact {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     padding: 0;
+    text-align: center;
 }
 
 .contact img {
-    max-width: 30px;
-    /* test */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: 35px;
 }
 
 .github:hover {
