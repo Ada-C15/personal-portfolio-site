@@ -82,51 +82,6 @@ p {
 }
 
 
-
-/* blue: 555b6e 
-dark teal: 89b0ae
-light teal: bee3db
-light pink: faf9f9 buttons 
-pink: ffd6ba font on navigation*/
-
-/* .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 5px; 5px rounded corners
-    width: 40%;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.container {
-    padding: 2px 16px;
-}
-
-article img {
-    border-radius: 5px 5px 0 0;
-} */
-
-/* works for blue background... */
-/* .card { */
-    /* width: 200px; */
-    /* height: 230px; */
-    /* display: inline-block; */
-    /* border-radius: 10px; */
-    /* padding: 15px 25px; */
-    /* box-sizing: border-box; */
-    /* cursor: pointer; */
-    /* margin: 10px 15px; */
-    /* background: blue */
-    /* background: url("images/poo_poo_point.jpeg") blue; */
-    /* background-position: center; */
-    /* background-size: cover; */
-/* } */
-
-
-
-
 /* portfolio formatting */
 .project {
     padding: 10px;
@@ -145,19 +100,58 @@ article img {
     margin-right: 40px;
 }
 
+
 /* hobbies formatting */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 250px;
-    height: 400px;
+    height: 390px;
     margin: auto;
     text-align: center;
     background: #89b0ae;
-    /* cursor: pointer; */
 }
 
 article img {
     display: flex;
     width: 250px;
     height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template: 1 fr 1 fr 1 fr 1 fr 1 fr 1 fr 1 fr;
+    padding-bottom: 60px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.card2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.card3 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.card a {
+    color: #555b6e;
+    ;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: white;
 }
