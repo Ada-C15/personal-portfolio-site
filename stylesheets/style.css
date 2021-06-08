@@ -1,0 +1,57 @@
+.topnav {
+background-color: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: center;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+background-color: #33ccff 0%;
+color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+display: none;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+float: none;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+/* image resize */
+img {
+    width: 30%;
+    height: auto;
+    margin-left: auto;  
+    margin-right: auto;
+    border-radius: 50%;
+    align-items: flex;
+    border: 5px solid #fff;
+    box-shadow: 5px 10px 20px grey;
+}
+
+body , html{
+    height: 100%;
+}
