@@ -1,0 +1,157 @@
+
+
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-tertiary: 'Caveat', cursive;
+    
+    --fw-reg: 300;
+    --fw-bold: 1000;
+    
+    --clr-light: #fff;
+    --clr-dark: rgb(19, 27, 34);
+    --clr-accent:teal;
+    
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+}
+
+/*Header Styles*/
+h1,
+h2,
+h3 {
+    line-height: .75;
+    margin: .75;
+}
+
+h1 { 
+    font-size: var(--fs-h1);
+    font-family: var(--ff-secondary);
+}
+
+h2 { 
+    font-size:var(--fs-h2) ;
+    font-family: var(--ff-secondary);
+    color:var(--clr-accent);
+}
+h3 { 
+    font-size: var(--fs-h3);
+    font-family:var(--ff-secondary);
+}
+
+h4{
+    font-family:var(--ff-secondary);
+}
+
+.main-font{
+    font-family: var(--ff-tertiary);
+    font-weight: var(--fw-bold);
+    font-size: 3rem;
+}
+
+/*Navigation bar*/
+.navbar {
+    background-color:var(--clr-dark);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left:0;
+    right:0;
+    
+}
+
+.navbar a{
+    float: right;
+    display: block;
+    color: var(--clr-light);
+    text-align: left;
+    padding: 2em 2em;
+    text-decoration: none;
+    font-family: var(--ff-secondary)
+}
+
+.navbar a:hover {
+    background:var(--clr-accent);
+    color: black;
+}
+
+
+/* Main content */
+
+.intro {
+    display: inline-flexbox;
+    padding: 2em 2em;
+    max-width: 35%;
+    max-height: 25%;
+    margin-top: 15%;
+    margin-left: 46%;
+    background:var(--clr-light);
+    color: var(--clr-dark);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+.portfolio{
+    display: inline-block;
+    margin-top: 12%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+img{
+    display: inline-flexbox;
+    float:left;
+    margin-right: 2%;
+    margin-left: 27%;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+
+main{
+
+    background:var(--clr-light);
+    color: var(--clr-dark);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.3;
+}
+
+.large {
+    font-weight: var(--fw-bold);
+}
+
+section{
+    flex-shrink: inherit;
+}
+
+.blog {
+    display: block;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.about{
+    display:block;
+    padding-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align:left;
+}
+
+footer {
+    background-color:var(--clr-dark); 
+    color:var(--clr-light);
+    text-align: center; 
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+}
