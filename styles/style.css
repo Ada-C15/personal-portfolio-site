@@ -30,6 +30,13 @@ body {
     background-color: blue;
 }
 
+@media screen and (max-width: 600px){
+    .navbar li {
+        font-size: 1em;
+    }
+
+}
+
 /************ styling for home page **********/
 #main-page {
     margin: 0;
