@@ -11,7 +11,15 @@ header {
     justify-content: center;
     align-items: center;
 }
-
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
 div {
     border: 5px solid;
     padding: 10px;
@@ -24,6 +32,16 @@ h1 {
     font-family: 'Caveat', cursive;
     font-size: 75px;
     margin: 0;
+}
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
 }
 
 nav {
@@ -55,4 +73,32 @@ a:visited {
 
 a:hover {
     color: white;
+}
+img {
+    display: block;
+    width: 60%;
+    height: auto;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer {
+    font-family: 'Lato', sans-serif;
+    text-align: center;  
+    bottom: 0;
+    width: 100%;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+    margin-left: 16px;
+    width: 800px;
 }
