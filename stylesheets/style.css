@@ -9,6 +9,13 @@ body {
   
   h1, h2, h3, h4 {
     color: #6b705c;
+    text-align: center;
+    font-family: 'Kristi', cursive;
+    font-size: 2em
+  }
+
+  h1 {
+    font-size: 4em ;
   }
   
   .current-page {
@@ -70,7 +77,20 @@ body {
     text-align: center;
     margin: 0.25em;
     padding: 0.25em;
-    background: #ffedd8;
+    background: #b7b7a4;
+    border-radius: 20%;
   }
   
-  
+  a, a:visited {
+    color: #7f8375;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: bold
+  }
+
+  main h2 {
+    margin: 0.5em;
+    font-size: 2.5em;
+  }
