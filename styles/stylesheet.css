@@ -49,7 +49,7 @@ header{
 }
 
 main {
-    padding: 5% 12% 5% 12%;
+    padding: 30px;
     border-style: 10px, dotted, black;
     color: black;
     background: white;
@@ -60,7 +60,7 @@ main hr {
     border-top: 2px solid lightgray;
 }
 
-h3 a{
+h3 a {
     color: black;
     text-align: left;
 }
@@ -101,30 +101,45 @@ main a {
     border:5px solid rgb(253, 1, 119);
 }
 
-.blog h3 {
+.blog {
     text-align: left;
+}
+
+.blog ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .blog-info {
     display: flex;
     flex-direction: row;
     max-height: 225px;
+    max-width: 550px;
     overflow:hidden;
     padding-bottom: 10px;
+    text-align: left;
 }
 
 .blog-info img {
-    max-width: 30%;
-    min-width: 30%;
+    max-width: 250px;
+    min-width: 250px;
     max-height: 100%;
     object-fit: cover;
     position: static;
 }
 
 .blog-info p {
-    padding-left: 20px;
-    padding-right:-20px;
-    text-align: left;
+    padding-left: 30px;
+    padding-right:30px;
+    max-width: 250px;
+    font-size: 0.8em;
+}
+
+.blog-info hr {
+    position: static;
+    margin-right: 30px;
 }
 
 .about {
@@ -179,6 +194,7 @@ footer {
     margin: 0;
     color: white;
 }
+
 footer a {
     color: white;
     text-decoration: none;
