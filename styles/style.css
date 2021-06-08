@@ -1,0 +1,115 @@
+body {
+    font-family: Verdana, Geneva, 
+    Tahoma, sans-serif;
+    background-image: url(/Users/marisamorales/Developer/projects/personal-portfolio-site/images/thistlerepeat.jpg);
+    background-position: bottom;
+    background-size: 30em;
+}
+a:visited {
+    color: #9FD8CB;
+}
+
+a:hover {
+    color: #FFE8E1;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 5em;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1em;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+p {
+    line-height: 150%;
+    padding: .2em;
+    color: #183642;
+    background-color: #d5cad6;
+    border: 2px solid #d5cad6;
+    border-radius: 5px;
+}
+
+.link-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.link-menu,
+.menu-item {
+    list-style-type: none;
+    font-family: Verdana, Geneva, 
+    Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+
+.splash {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    min-height: 350px;
+    border: 2px solid #d5cad6;
+    border-radius: 5px;
+}
+
+.splash img {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+.splash, 
+.splash-text {
+    align-items: stretch;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    margin-top: 0em;
+    height:100%;
+    text-shadow: #73628a 1px 0 10px;
+}
+
+.splash-text {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 1rem;
+    color: #d5cad6;
+}
+
+footer {
+    text-align: center;
+    font-size: .8em;
+    margin-top: 1em;
+    line-height: 150%;
+    background-color: #d5cad6;
+    border: 2px solid #d5cad6;
+    border-radius: 5px;
+}
