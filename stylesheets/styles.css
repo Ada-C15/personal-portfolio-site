@@ -2,7 +2,7 @@ body {
     background-image: url("/Users/alisonmcginley/developer/personal-portfolio-site/images/sincerely-media-pmCoGdvAaag-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    color: #f8f5f1;
+    color: #fbfbf2;
     font-family: 'Hind', sans-serif;
     padding: 3em 5%;
 }
@@ -10,7 +10,7 @@ body {
 header {
     text-align: left;
     width: 40%;
-    color: #f8f5f1;
+    color: #fbfbf2
 }
 
 h1 {
@@ -22,14 +22,14 @@ ul {
     padding: 0;
 }
 .links li {
-    color: #f8f5f1;
+    color: #fbfbf2;
     float: left;
     display: inline;
     margin-right: 10px;
 }
 
 .links a {
-    color: #f8f5f1;
+    color: #fbfbf2;
     size: 15px;
 }
 
@@ -45,7 +45,7 @@ nav {
 }
 
 nav h3 a{
-    color: black;
+    color: #847577;
     font-size: 1.1em;
 }
 
@@ -60,7 +60,7 @@ nav h3 a{
     grid-template: 1 / 1fr 1fr 1fr;
     visibility: hidden;
     opacity: 0;
-    transition: visibility 1.5s, opacity 1.5s linear;
+    transition: visibility 1s, opacity 1s linear;
 }
 
 .container #about {
@@ -117,14 +117,15 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    color: black;
+    color: #847577;
     text-align: left;
     display: flex;
     flex-direction: column;
-}
+    padding-left: 3em;
+    }
 
 footer .links a {
-    color: black;
+    color: #847577;
     margin-bottom: .25em;
 }
 
@@ -135,6 +136,10 @@ footer .links {
 footer h4, footer p {
     margin: .1em 2em;
 }
+
+.link-home {
+    color: #847577;
+}
 .port-container {
     width: 100%;
     height: 50vw;
@@ -144,13 +149,34 @@ footer h4, footer p {
 }
 
 
-#about:hover {
+#about:hover a, #code-journal:hover a, #portfolio:hover a {
     opacity: .5;
+    text-align: justify;
+    text-align-last: justify;
+    letter-spacing: .2em;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content:flex-start;
+}
+.footer-links a {
+    color: #847577;
+    padding-right: 25px;
+    font-size: 1.25em;
 }
 
 
-#apis {
+.homelink {
+    color:#f8f5f1;
+    font-size: 1.25em;
+}
+
+/* #apis {
     grid-column: 1/2;
+    
 }
 
 .portfolio-content {
@@ -168,9 +194,9 @@ footer h4, footer p {
     
 }
 
-#oop {
-    grid-column: 2/3;
-}
+/* #oop {
+    grid-column: 2/3; */
+/* }
 #code-journal:hover {
     /* background-color: #f8a488; */
 }
@@ -181,12 +207,12 @@ footer h4, footer p {
 
 #portfolio:hover {
     /* background-color: #f8a488; */
-}
-
+} */
+/* 
 #profpic {
     border-radius:25px;
     width:15%;
     height:auto;
     display: inline;
     margin-left: 15%;
-}
+} */ */
