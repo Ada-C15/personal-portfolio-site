@@ -1,0 +1,99 @@
+body {
+      font-family: 'Courier New';
+      background-image: url("https://cb.scene7.com/is/image/Crate/BunnyTallBunchAVSSS21/$web_pdp_main_carousel_high$/201019091936/bunny-tail-bunch.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #6b705c;
+    text-align: center;
+    font-family: 'Kristi', cursive;
+    font-size: 2em;
+  
+  }
+
+  h1 {
+    font-size: 4em ;
+  }
+  
+  .current-page {
+    font-weight: bold;
+  }
+  
+  img {
+    max-width: 50vw;
+    border: 0.0em solid #ffedd8;
+  }
+  
+  header {
+    grid-column: span 2;
+    text-align: center;
+  }
+  
+  footer {
+    background: #ffedd8;
+    margin-top: 1em;
+    padding: 0.075em 0.5em;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    grid-column: span 2;
+    text-align: center;
+    align-items: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 1fr auto;
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    max-height: 200vh;
+  }
+  
+  
+  nav {
+    
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  nav ul {
+    margin: 3em;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-flex;
+    text-align: center;
+    margin: 0.25em;
+    padding: 0.25em;
+    background: #b7b7a4;
+    border-radius: 12%;
+    background: url("https://i.pinimg.com/564x/ba/76/58/ba765836dc5cedf594c22af9a9f7b4f7.jpg");
+  }
+
+ 
+  
+  a, a:visited {
+    color: #7f8375;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: bold
+  }
+
+  main h2 {
+    margin: 0.5em;
+    font-size: 2.5em;
+  }
