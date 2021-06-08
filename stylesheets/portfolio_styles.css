@@ -21,6 +21,10 @@ p {
     font-style: italic;
 }
 
+a {
+    transition: letter-spacing 1s;
+}
+
 /* portfolio details */
 .port-container {
     width: 100%;
