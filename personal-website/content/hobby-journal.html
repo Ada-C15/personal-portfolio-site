@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Header -->
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://use.fontawesome.com/c0ac3b38ec.js"></script> <!--insert Linkedin and Github icons as classes --> 
+        <title>Saharai's Personal Portfolio WebPage</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/Users/ada/Developer/projects/personal-website/content/stylesheets/style_hobby.css">
+    </head>
+    <!-- Body -->
+    <body>
+        <section id="banner">
+            <div class="banner-text">
+
+                <h1>Hobbies</h1>
+                <br>
+                <h3>--Step into the Foray: An Excerpt--</h3>
+                <br>
+                <p>In my free time I like to imagine what sensations we as humans will never experience due to our limited biological senses.</p>
+                <p>As strange as it may seem, 2020 forced us all in a space of reflection and thought. "What better way to spend said time than to immerse oneself in hypothetical situations or existentialist theories?" I asked myself.</p>
+                <p>"What would it feel like to be a cloud, full of rain?"</p>
+                <p>My proclivity for strange yet wholesome rabbit holes, are often the springboard to my art. I paint, draw and write poetry on the magical experiences that my inner child wishes could be reality.</p>
+                <p>However, I will not pretend I am something I am not. I am anything but a detached aloof mind.</p>
+                <p>Like any other zillenial, I spend too much time on TikTok, spamming friends, family, and even a few unfortunate strangers.</p>
+                <p>I look for ways to entertain myself, while still respecting life, nature, and people.</p>
+                <p>Hiking, yoga, history facts, and podcasts, are some of the few activities that grounded me whilst my mind beckoned me to fly away with it.</p>
+                <p>Alas, this introverted lifestyle is coming to a bittersweet end, and a new beginning awaits.</p>
+                <div class="banner-btn">
+                    <a href="/Users/ada/Developer/projects/personal-website/content/index.html"><span></span>Home</a>
+                </div>
+            </div>
+        </section>
+        <div id="sideNav">
+            <nav>
+            <ul>
+              <li><a href="file:///Users/ada/Developer/projects/personal-website/content/index.html#">HOME</a></li>
+              <li><a href="/Users/ada/Developer/projects/personal-website/content/about.html">ABOUT</a></li>
+              <li><a href="/Users/ada/Developer/projects/personal-website/content/hobby-journal.html">HOBBY JOURNAL</a></li>
+              <li><a href="/Users/ada/Developer/projects/personal-website/content/portfolio.html">PORTFOLIO</a></li>  
+            </ul>
+            </nav>
+        </div>
+        <div id="menulogo">
+            <img src="/Users/ada/Developer/projects/personal-website/images/saharis-spirit-animal.png" id="menu">
+        </div>
+        <script>
+            var menulogo=document.getElementById("menulogo")
+            var sideNav=document.getElementById("sideNav")
+            var menu=document.getElementById("menu")
+            sideNav.style.right="-250px"
+            menulogo.onclick = function(){
+                if(sideNav.style.right=="-250px"){
+                    sideNav.style.right="0";
+                }
+                else{
+                    sideNav.style.right="-250px";
+                }
+            }
+        </script>
+        <section id="footer">
+            <div class="title-text">
+                <p><strong>CONTACT</strong></p>
+                <p>example@koalafied.com</p>
+                <p>+0123-3434-koala</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/saharai-cante-349205137/" class="fa fa-linkedin-square" aria-hidden="true"></a>
+                <a href="https://github.com/scantea" class="fa fa-github-alt" aria-hidden="true"></a>
+                <p>© 2021 Copyright Koalafied Inc</p>
+            </div>
+        </section>
+    </body>
+</html>

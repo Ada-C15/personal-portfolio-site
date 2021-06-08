@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Header -->
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://use.fontawesome.com/c0ac3b38ec.js"></script> <!--insert Linkedin and Github icons as classes --> 
+        <title>Saharai's Personal Portfolio WebPage</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/Users/ada/Developer/projects/personal-website/content/stylesheets/style_portfolio.css">
+    </head>
+    <!-- Body -->
+    <body>
+        <section id="banner">
+            <div class="banner-text">
+
+                <h2>Portfolio: Projects</h2>
+            </div>
+        </section>
+        <section id="section-a">
+            <div class="section-a-text"> 
+                <h3>Project: Video Store CLI</h3>
+                <br>
+                <p>Skills:</p>
+                <br>
+                <ul>
+                    <li>Client Server model</li>
+                    <li>RESTful routes</li>
+                    <li>Using an external API</li>
+                    <li>Building a front end CLI</li>
+                </ul>
+                <br>
+                <p>Description: Video Store demo that keeps track of video and customer information. Built a CLI with the following set of funcionalities:</p>
+                <br>
+                <ul>
+                    <li>Customer create, edit, delete</li>
+                    <li>Video create, edit, delete</li>
+                    <li>List customers</li>
+                    <li>List videos</li>
+                    <li>Check out video to customer</li>
+                    <li>Check in video from customer</li>
+                </ul>
+                <br>
+            </div>
+
+        </section>
+        <section id="section-b">
+            <div class="section-b-text"> 
+                <h3>Project: Retro Video Store</h3>
+                <br>
+                <p>Skills:</p>
+                <br>
+                <ul>
+                    <li>Client Server model</li>
+                    <li>RESTful routes</li>
+                    <li>Using git as development workflow</li>
+                    <li>Using postman to run smoke tests</li>
+                    <li>Driving development with independant research,experimentation and collaboration</li>
+                    <li>Flask Package-creating models, many to many relationships,creating unconventional routes, and creating conventional RESTful CRUD routes for models</li>
+                </ul>
+                <br>
+                <p>Description: Video Store demo that keeps track of video and customer information. Backend processes handled listed below:</p>
+                <br>
+                <ul>
+                    <li>Customers, all CRUD actions</li>
+                    <li>Videos, all CRUD actions</li>
+                    <li>Video rental checkout, custom endpoint</li>
+                    <li>Video rental check in, custom endpoint</li>
+                    <li>Listing videos checked out to a customer, custom endpoint</li>
+                    <li>Listing customers who have checked out a video, custom endpoint</li>
+                </ul>
+                <br>
+            </div>
+        </section>
+        <section id="section-c">
+            <div class="section-c-text"> 
+                <h3>Project: Task List API</h3>
+                <br>
+                <p>Skills:</p>
+                <br>
+                <ul>
+                    <li>Client Server model</li>
+                    <li>RESTful routes</li>
+                    <li>Using pytest as part of development workflow</li>
+                    <li>Using postman to run smoke tests</li>
+                    <li>Driving development with independant research,experimentation and collaboration</li>
+                    <li>Flask Package-creating models, one to many relationships,creating unconventional routes, and creating conventional RESTful CRUD routes for models</li>
+                </ul>
+                <br>
+                <p>Description: Created a web API to organize tasks and associated goals</p>
+                <br>
+                <ul>
+                    <li>Mark tasks as complete, and get feedback status via Slack</li>
+                    <li>Organize tasks list with goals via a one to many relationship</li>
+                    <li>Creating models in associatino with app setups</li>
+                    <li>app deployment via heroku</li>
+                </ul>
+                <br>
+            </div>
+        </section>
+        <section id="section-d">
+            <div class="section-d-text"> 
+                <h3>Project: Viewing Party</h3>
+                <br>
+                <p>Skills:</p>
+                <br>
+                <ul>
+                    <li>Conditional Logic</li>
+                    <li>Lists</li>
+                    <li>Dictionaries</li>                    
+                    <li>Nested loops</li>                    
+                    <li>Nested data structures</li>
+                </ul>
+                <br>
+                <p>Description: Create nested dictionaries and lists structures and access them accordingly based on pytests</p>
+                <br>
+                <ul>
+                    <li>Create dictionaries consisitng of title,genre, and rating, named "watchlist" and "watched"</li>
+                    <li>Retrieve data from different users with different data</li>
+                    <li>Create dictionaries that will update based on each individual's watchlist</li>
+                    <li>Return data that details movie reccomendations based on interests,ratings, and "watched" list</li>
+                </ul>
+                <br>
+            </div>
+        </section>
+        <div id="sideNav">
+            <nav>
+            <ul>
+              <li><a href="file:///Users/ada/Developer/projects/personal-website/content/index.html#">HOME</a></li>
+              <li><a href="/Users/ada/Developer/projects/personal-website/content/about.html">ABOUT</a></li>
+              <li><a href="/Users/ada/Developer/projects/personal-website/content/hobby-journal.html">HOBBY JOURNAL</a></li>
+              <li><a href="/Users/ada/Developer/projects/personal-website/content/portfolio.html">PORTFOLIO</a></li>  
+            </ul>
+            </nav>
+        </div>
+        <div id="menulogo">
+            <img src="/Users/ada/Developer/projects/personal-website/images/saharis-spirit-animal.png" id="menu">
+        </div>
+        <script>
+            var menulogo=document.getElementById("menulogo")
+            var sideNav=document.getElementById("sideNav")
+            var menu=document.getElementById("menu")
+            sideNav.style.right="-250px"
+            menulogo.onclick = function(){
+                if(sideNav.style.right=="-250px"){
+                    sideNav.style.right="0";
+                }
+                else{
+                    sideNav.style.right="-250px";
+                }
+            }
+        </script>
+        <section id="footer">
+            <div class="title-text">
+                <p><strong>CONTACT</strong></p>
+                <p>savilescante@gmail.com</p>
+                <p>+0123-456-koala</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/saharai-cante-349205137/" class="fa fa-linkedin-square" aria-hidden="true"></a>
+                <a href="https://github.com/scantea" class="fa fa-github-alt" aria-hidden="true"></a>
+                <p>© 2021 Copyright Koalafied Inc</p>
+            </div>
+        </section>
+    </body>
+</html>
