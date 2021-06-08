@@ -192,3 +192,42 @@ p {
 .portfolio-part img {
     max-height:175px;
 }
+
+hobbies {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 50px;
+    align-items:stretch ;
+    justify-content: space-around;
+}
+
+hobbies span {
+    height: 300px;
+    width: 350px;
+    margin: 5px;
+    border-color: #B8C4CC;
+    border-style:solid;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+hobbies span h3 {
+    margin-top: 0px;
+    color: #474954;
+}
+
+hobbies span img {
+    max-width: 225px;
+}
+
+hobbies span:hover {
+    background-color:#E7EBEE;
+}
+
+hobbies a {
+    text-decoration: none;
+
+}
