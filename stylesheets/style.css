@@ -12,7 +12,11 @@ html {
 }
 
 nav .w3-display-topleft{
-    color: white
+    color: white;
+}
+
+.w3-display-bottommiddle{
+    color: white;
 }
 
 footer p{
