@@ -106,7 +106,7 @@ main article {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%; 
     text-align: justify;
-}*/
+}*/ /*I was trying to change the layout of my extra page, but couln't get it quite finished*/
 
 main .home {
     text-align: justify;
