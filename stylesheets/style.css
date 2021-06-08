@@ -38,9 +38,11 @@ body {
     margin-top: 1em;
     padding: 0.075em 0.5em;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: center;
+    justify-content: center;
     grid-column: span 2;
+    text-align: center;
+    align-items: center;
   }
   
   footer p {
@@ -57,7 +59,6 @@ body {
     min-height: 100vh;
     max-height: 200vh;
   }
-  
   
   
   nav {
