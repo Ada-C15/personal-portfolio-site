@@ -10,7 +10,6 @@ VH: Relative to the viewport’s height
 
 
 /* --- STYLE FOR MAIN BODY --- */
-/* HOME */
 
 html{
     font-family: 'Futura',sans-serif;
@@ -25,7 +24,6 @@ body{
     max-width: 900px;
     width: 85%;
     margin: 0 auto;
-    /*padding: 30px 0; adding 30px to top and bottom and 0 to left and right*/
     /*grid-template-columns: 1fr 4fr; this makes to divide the main section in 1 and 4 fractions.*/
 }
 
@@ -36,23 +34,20 @@ h1{
     text-align:center;
 }
 
-/* HOME */
+/* --HOME-- */
 
 .home-img{
     max-width: 100%;
 }
-/* main{
-    display: grid;
-    margin-left: auto;
-    margin-right: auto;
-} */
+
 .home-text{
     padding: 50px;
     text-align: center;
     letter-spacing: 0.09rem;
+    color: #343434;
 }
 
-/* ABOUT */
+/* --ABOUT-- */
 
 .about-img{
     max-width: 100%;
@@ -60,8 +55,9 @@ h1{
     box-shadow: 0 8px 35px 0 rgba( 31, 38, 135, 0.37 );
 }
 
-.about-text{
+section h3{
     font-size: 1.3em;
+    font-weight: lighter;
     letter-spacing: 0.03rem;
     text-align: justify;
     /* I don't like having <br><br> at the end of each paragraph, 
@@ -74,7 +70,7 @@ h1{
     flex-wrap: wrap;
 }
 
-.about-row-col > p { /*This apply to <p> children*/
+.about-row-col > h3 { /*This apply to <h3> children*/
     padding: 10px;
     width: calc(50% - 1.5rem);
 }
@@ -91,7 +87,7 @@ h1{
 }
 
 
-/* PORTFOLIO */
+/* --PORTFOLIO-- */
 .projects{
     width: 100%;
     padding: 10px;
@@ -134,8 +130,7 @@ h1{
 }
 
 
-/*  HOBBY  */
-
+/*  --HOBBY--  */
 
 .my-background{
     position: relative;
@@ -161,7 +156,6 @@ to set my image as background with opacity without affecting my text */
     right: 0px;
     background: url("../images/hobby_YouTube.jpg") center center;
     background-size: cover;
-    /* justify-content: center; */
     opacity: .6;
 }
 
@@ -211,7 +205,7 @@ a:hover{
 
 /* --- STYLE FOR FOOTER --- */
 
-h3{
+h2{
     color: #e8e9f0;
 }
 
