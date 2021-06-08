@@ -20,6 +20,9 @@ p {
     font-size: 1.25em;
     font-style: italic;
 }
+ a {
+    transition: letter-spacing 1.5s;
+ }
 /* portfolio details */
 .port-container {
     width: 100%;
