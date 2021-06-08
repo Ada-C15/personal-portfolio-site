@@ -1,0 +1,31 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+background-image: url('https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRhcmslMjBsZWFmfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+min-height: 100%;
+background-position: center;
+background-size: cover;
+}
+
+html {
+    background-color: black;
+}
+
+nav .w3-display-topleft{
+    color: white
+}
+
+footer p{
+    font-size: 12px;
+    color: white
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
