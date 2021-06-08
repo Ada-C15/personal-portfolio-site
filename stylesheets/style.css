@@ -124,21 +124,7 @@ article img {
     /* background-size: cover; */
 /* } */
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 250px;
-    height: 400px;
-    margin: auto;
-    text-align: center;
-    background: #89b0ae;
-    /* cursor: pointer; */
-}
 
-article img {
-    display: flex;
-    width: 250px;
-    height: auto;
-}
 
 
 /* portfolio formatting */
@@ -157,4 +143,21 @@ article img {
 .project p {
     margin-left: 40px;
     margin-right: 40px;
+}
+
+/* hobbies formatting */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    background: #89b0ae;
+    /* cursor: pointer; */
+}
+
+article img {
+    display: flex;
+    width: 250px;
+    height: auto;
 }
