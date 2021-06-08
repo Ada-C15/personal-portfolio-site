@@ -16,7 +16,14 @@ body {
     padding:0;
     display:inline;
     padding-inline-start: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 } 
+.navbar li {
+    margin: 15px;
+    font-size: 1.2em;
+}
 .navbar a {
     text-decoration: none;
     color: white;
@@ -26,15 +33,6 @@ body {
     background-color: blue;
 }
 
-.navbar ul {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-.navbar li {
-    margin: 15px;
-    font-size: 1.2em;
-}
 
 /************ styling for home page **********/
 #main-homepage {
@@ -118,7 +116,11 @@ input[type=submit]:hover {
     text-align: center;
 }
 
+@
+
 /********* styling for portfolio page **********/
+
+
 
 /********* styling for resume page **********/
 
@@ -136,8 +138,32 @@ input[type=submit]:hover {
 @media screen and (min-width: 1200px) {
     #resume-mainpage {
         margin: 5% 20%;
-    } 
+    }
 }
 #edu span {
     font-style: italic;
+}
+
+
+/********* styling for Blog page **********/
+#blog-main h2 {
+    background-color: brown;
+    padding: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    #blog-main {
+        margin: 5%;
+    }
+}
+@media screen and (min-width: 600px) {
+    #blog-main {
+        margin: 5% 10%; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #blog-main {
+        margin: 5% 20%;
+    }
 }
