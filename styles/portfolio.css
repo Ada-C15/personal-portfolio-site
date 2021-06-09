@@ -1,0 +1,15 @@
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+  
+  .content-container > section {
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .footer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }

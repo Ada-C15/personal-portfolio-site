@@ -1,0 +1,29 @@
+
+.body {
+  background: lavender;
+  margin: 0;
+  font-family: Snell Roundhand, cursive;
+}
+
+.content-container {
+  display: flex;
+  gap: 3em;
+  padding-left: 200em;
+  padding-top: 200em;
+  text-align: justify;
+  align-content: stretch;
+  justify-content: center;
+  height: 80%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.about-me {
+  text-align: left;
+  font-family: 'PT Serif', serif;
+  color: rgb(97, 0, 139);
+}
+
+ 

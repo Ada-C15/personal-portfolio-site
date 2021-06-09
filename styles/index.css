@@ -1,0 +1,26 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* .theatre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  } */
+  .content-container > section{
+    text-align: center;
+    padding: 1em;
+  }
+  
+  p {
+    font-family: 'PT Serif', serif;
+    color: rgb(97, 0, 139);
+    font-size: 18px;
+  }
+  
+  .circle {
+    border-radius: 50%;
+
+  }
