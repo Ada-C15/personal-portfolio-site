@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right,#500b11,#ce8ca0);;
+}
+#top-nav ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: hsl(0, 0%, 0%, .6);
+}
+
+#top-nav li {
+    display: block;
+    padding: 1rem 4rem;
+    border-right: solid 1px hsl(187, 61%, 43%, .5);
+}
+
+#top-nav a {
+    color: hsl(32, 36%, 76%);
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#top-nav li:hover {
+    background-color: hsl(187, 61%, 43%, .5);
+}
+
+.title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+
+.date {
+    font-size: .8em;
+}
+
+.project-entries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.entry {
+    border: solid white 2px;
+    width: 450px;
+    padding: 70px;
+    margin-top: 30px;
+    margin-right: 10px;
+    color: white;
+}
+
+.entry-title {
+    text-transform: uppercase;
+    color: rgb(225, 230, 22);
+}
+
+/*button properties*/
+.button-container{
+    padding-top: 30px;
+}
+
+.read-more-button {
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.read-more-button {
+    color: white;
+}
+
+.read-more-button:hover {
+    background-color: hsl(187, 61%, 43%, .5);
+    color: black;
+    cursor: default;
+}

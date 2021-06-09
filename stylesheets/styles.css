@@ -1,10 +1,11 @@
-/* General Styling */
 body {
 	position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-	background-color: hsl(0, 0%, 100%, .7)
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+	color: rgb(206, 112, 120);
+    
 }
 
 h2 {
@@ -15,13 +16,125 @@ h2 {
 }
 
 .container {
-  grid-template-rows: .33fr 3fr .67fr;
-  height: 100%;
+    display: grid;
+    grid-template-rows: .33fr 3fr .67fr;
+    height: 100%;
 }
 
 .main {
+	display: grid;
 	width: 100%;
 	grid-template-columns: 30% 70%;
 	min-height: 45vh;
 	height: auto;
+}
+
+.banner-division {
+	width: 75%;
+	height: 30vh;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	padding: 1rem;
+}
+
+.banner-division article {
+	display:flex;
+	flex-flow: wrap column;
+	justify-content: center;
+}
+
+.banner-division article p:first-of-type {
+	margin: 0 auto;
+	font-size: 1.25em;
+	width: 70%;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Header Styling */
+#top-nav ul {
+	position: fixed;
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: hsl(0, 0%, 0%, .6);
+    margin: 2rem auto;
+}
+
+#top-nav li {
+    display: block;
+    padding: 1rem 4rem;
+    border-right: solid 1px hsl(187, 61%, 43%, .5);
+}
+
+#top-nav a {
+    color: hsl(32, 36%, 76%);
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#top-nav li:hover {
+    background-color: hsl(187, 61%, 43%, .5);
+}
+.circle {
+	border-radius: 70%;
+	height: 20vh;
+	width: 20vh;
+	margin: 0 auto;
+}
+
+/* Parallax */
+.parallax {
+    background-image: url("../images/Kg_bg.jpeg");
+    height: 35vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.break {
+	width: 100%;
+	height: 39vh;
+}
+
+.parallax-segment {
+	grid-column-start:2;
+}
+
+.parallax-segment img {
+	width: 35vh;
+	height: 35vh;
+	padding: 2rem;
+	float: left;
+}
+
+h1.parallax {
+	margin-left: -999px;
+}
+
+.parallax-segment h1, .parallax-segment h2 {
+	margin-top: 2rem;
+}
+
+.parallax-segment p {
+	width: 95%;
+}
+
+/* Layout */
+
+a {
+    text-decoration: none;
+}
+
+.clr:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+	background-color: hsl(0, 0%, 0%, .6);
 }
