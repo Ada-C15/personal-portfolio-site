@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(to right,#500b11,#ce8ca0);;
+}
+#top-nav ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: hsl(0, 0%, 0%, .6);
+}
+
+#top-nav li {
+    display: block;
+    padding: 1rem 4rem;
+    border-right: solid 1px hsl(187, 61%, 43%, .5);
+}
+
+#top-nav a {
+    color: hsl(32, 36%, 76%);
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#top-nav li:hover {
+    background-color: hsl(187, 61%, 43%, .5);
+}
+
+.image {
+    border: rgb(225, 230, 22) 6px double;
+    border-radius: 70%;
+    height: 35vh;
+    width: 35vh;
+    margin: 10% 11%;
+}
+
+.about {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.intro {
+    width: 60%;
+    margin-left: 10%;
+    color: white;
+    line-height: 1.5;
+}
+
+.intro h2 {
+    color: rgb(225, 230, 22);
+}
+
+h2 {
+    font-size: 3em;
+}
