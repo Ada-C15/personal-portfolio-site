@@ -88,6 +88,7 @@ article {
     flex-direction: column;
     border: 5px solid;
     text-align: center;
+    margin-top: 40px;
 }
 footer {
     font-family: 'Lato', sans-serif;
