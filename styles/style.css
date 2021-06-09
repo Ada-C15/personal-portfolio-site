@@ -73,8 +73,7 @@ body {
 #social-menu h1 {
     margin-top: 50px;
 }
-
-#link, #git, #twit, #stack  {
+a.icon {
     font-size: 50px;
     margin: 20px;
 }
