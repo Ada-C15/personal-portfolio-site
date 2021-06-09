@@ -1,0 +1,150 @@
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+body {
+    background-color: rgba(219, 201, 184, 1);
+
+}
+
+footer {
+    background-color: brown;
+    margin-top: 0,5em;
+    padding: 0.5em 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.header img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+
+.footer {
+    grid-row: auto;
+}
+
+/*NAVIGATION*/
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:70%;
+    margin:30 15% 0 15%;
+}
+.navlink{
+    font-family: 'Rubik', serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.navlink:hover{
+    color:#c9c9c9;
+
+}
+/* COMMUNITY ACTION HEADER*/
+.communityheader img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+/* COMMUNITY ACTION FEATURED SPACE*/
+.post-content img {
+    
+    float: right;
+    width: 50%;
+    padding: 5%;
+}
+.post-content p {
+    display:flex
+}
+/*COMMUNITY ACTION EXTRA RESOURCES*/
+
+.additional-group {
+    display: flex;
+    text-align: center;
+    flex-basis: 100%;
+    flex-grow: 1;
+    color:black;
+    justify-content: space-around;
+}
+
+.additional-group h2{
+    padding-left: 10px;
+    margin: 0;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.featured-group {
+    width:25%;
+    flex-grow: 1 21%;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.featured-group img {
+    width:100% !important;
+}
+
+.featured-group img{
+    width: 100%;
+    height: auto; 
+}
+
+
+.featured-group h3{
+    margin: 0;
+    font-weight: 100;
+
+}
+
+.featured-group a {
+    text-decoration: none;
+    color: #e26565;
+    font-size: 20px;
+}
+/*ABOUT ME SECTION*/
+
+.about-me {
+    
+}
+
+.about-me-photos img {
+  
+}
