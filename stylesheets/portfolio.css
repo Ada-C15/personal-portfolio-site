@@ -1,0 +1,72 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+background-image: url('https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRhcmslMjBsZWFmfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+min-height: 100%;
+background-position: center;
+background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #333;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container a {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.container > div {
+  cursor: pointer;
+  height: 210px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  transition: all 0.5s ease-in;
+}
+
+.container > div:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.container > div:nth-of-type(1) {
+  grid-column: 1 / 4 ;
+}
+.container > div:nth-of-type(3) {
+  grid-column: 1 / 3;
+}
+
+.bg1 {
+  background: url('https://images.pexels.com/photos/1275415/pexels-photo-1275415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+footer p{
+  font-size: 12px;
+}

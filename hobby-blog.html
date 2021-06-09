@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lindsey Lee</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="stylesheets/style.css" type="text/css" media="screen">
+    
+        <style>
+
+            * {
+                box-sizing: border-box;
+            }
+    
+            .header {
+                text-align: center;
+                padding: 32px;
+            }
+    
+            .row {
+                display: -ms-flexbox; /* IE10 */
+                display: flex;
+                -ms-flex-wrap: wrap; /* IE10 */
+                flex-wrap: wrap;
+                padding: 0 4px;
+            }
+    
+            /* Create four equal columns that sits next to each other */
+            .column {
+                -ms-flex: 25%; /* IE10 */
+                flex: 25%;
+                max-width: 25%;
+                padding: 0 4px;
+            }
+    
+            .column img {
+                margin-top: 8px;
+                vertical-align: middle;
+                width: 100%;
+            }
+    
+            /* Responsive layout - makes a two column-layout instead of four columns */
+            @media screen and (max-width: 800px) {
+            .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+            }
+            }
+    
+            /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+            .column {
+                -ms-flex: 100%;
+                flex: 100%;
+                max-width: 100%;
+            }
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <div class="bgimg w3-display-container w3-animate-opacity">
+        <div class="header">
+            <h1 class="w3-jumbo w3-animate-top w3-text-white">HOBBIES</h1>
+            <hr class="w3-border-grey" style="margin:auto;width:40%">
+        </div>
+        <nav>
+            <div class="w3-display-topleft">
+                <a href="./index.html">Home</a> |
+                <a href="./about.html">About</a> |
+                <a href="./portfolio.html">Portfolio</a> |
+                <a href="./hobby-blog.html">Hobbies</a> |
+                <a href="./anthem.html">Anthem</a>
+            </div>
+        </nav>
+    
+
+        <!-- Photo Grid -->
+        <div class="row"> 
+        <div class="column">
+            <img src="https://cdn.dribbble.com/users/1206459/screenshots/12871536/media/ef10a60f1ea4ac83821bd18d1a652dde.png?compress=1&resize=400x300" alt="Girl Cooking in Kitchen" style="width:100%">
+            <img src="https://media.giphy.com/media/l0IylOPCNkiqOgMyA/giphy.gif" alt="Charlie Day Conspiracy Theory gif" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://i.pinimg.com/originals/40/c2/b9/40c2b915c447892a3e04951dfaaf3270.png" alt="Aesthetic Watching Netflix in Bed" style="width:100%">
+            <img src="https://i.pinimg.com/originals/4a/07/9d/4a079ddd0627f892f38fee99ee2da431.jpg" alt="Girl Listening to Music on Phone" style="width:100%">
+        </div>  
+        <div class="column">
+            <img src="https://payload503.cargocollective.com/1/5/176485/12376622/NYU-New-York-Illustration-Owen-Davey-Travel-Planes-Student-Airport_1000.jpg" alt="Girl Waiting to Travel at Airport" style="width:100%">
+            <img src="https://img.freepik.com/free-vector/woman-sleeping-her-bedroom_179970-1216.jpg?size=626&ext=jpg" alt="Girl Sleeping In Bed" style="width:100%">
+        </div>
+        <div class="column">
+                <img src="https://media.giphy.com/media/WRQBXSCnEFJIuxktnw/giphy.gif" alt="Confused Woman Math gif" style="width:100%">
+                <img src="https://image.freepik.com/free-vector/character-illustration-diy-home-improvement-concept_53876-66090.jpg" alt="DIY crafts stock photo image" style="width:100%">
+        </div>
+        <footer>
+            <div class="w3-display-bottomleft w3-padding-large">
+                <p>&copy; Copyright 2021 Lindsey Lee</p>
+            </div>
+            </footer>
+        </div>
+        </div>
+    </body>
+</html>
