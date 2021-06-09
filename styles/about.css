@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url("../images/pexels-irina-iriser-1090977.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+div {
+    border: 5px solid;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+img {
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 75px;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+li {
+    margin: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+    font-family: 'Lato', sans-serif;
+    text-align: center;  
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#about {
+    border: none;
+    margin-left: 16px;
+    width: 800px;
+}
