@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 980px;
+}
+
+@media (min-width: 899px) {
+  .main-container {
+    width: 70%;
+    font-size: 1rem;
+  }
+}
+
+.header-container {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.header-links-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@media (min-width: 899px) {
+  .header-links-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.link {
+  
+  margin-right: 3em; 
+  margin-bottom: .5rem;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: darkolivegreen;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .content-container {
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.greeting-container {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.greeting-container-header {
+  padding-bottom: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+  
+  font-size: 1.3rem;
+}
+
+.greeting-container-text {
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.portfolio-button {
+  display: inline-block;
+  width: fit-content;
+  border-radius: 20px;
+  background-color: #485460;
+  padding: .5em 1.25em;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  margin-top: .5rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-small {
+  font-size: .75rem;
+}
+
+a.portfolio-button:hover {
+  color: white;
+  /* background-color: #00d3c5; */
+  background-color: #596275;
+}
+
+.image-container {
+  width: 90%;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 900px) {
+  .image-container {
+    width: 30%;
+    margin-right: 2rem;
+  }
+}
+
+.footer-container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media (max-width: 899px) {
+  .footer-container {
+    justify-content: flex-start;
+    width: 500px;
+  }
+}
+
+img.github {
+  width: 2.2rem;
+  height: 2.2rem;
+  opacity: 0.6;
+  margin-right: 0.5rem;
+}
+
+img.linkedin {
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: 0.6;
+  margin-right: 0.9rem;
+}
+
+
+/* Portfolio */
+.portfolio-container {
+  width:100%;
+	border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 2em 0;
+  margin: 2em 0;
+  /* background-color: #F8F8F8; */
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2em 0;
+  /* margin is relative to the font-size and it is 17.6px, because font-size is also 17.6 px or 1.1 rem */
+}
+
+.project-box {
+  width: 290px;
+  height: 380px;
+  background-color: #FFFFFF;
+	border-radius: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	padding: 1.5em 1em;
+  margin: 1em;
+	box-shadow: 5px 10px 30px rgba(0,0,0,0.08);
+}
+
+.project-box img {
+  width: 250px;
+  height: 200px;
+  opacity: 0.7;
+  object-fit: cover;
+}

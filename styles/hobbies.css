@@ -1,0 +1,14 @@
+.content-container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 1em;
+  }
+  
+  .content-container > section {
+    padding: 1em;
+  }
+  
+  p {
+    font-family: 'PT Serif', serif;
+    color: rgb(97, 0, 139);
+  }
