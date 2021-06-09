@@ -77,4 +77,43 @@ header {
     background: #2F3061;
     color: #F7FFF7;
   }
-  
+
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #343434;
+  color: #F7FFF7;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+
+/* Responsive
+------------------------------------*/
+@media screen and (min-width:750px){
+  header, footer {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:749px){
+  h1 {
+    font-size: 75px;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
+  h2 {
+    line-height: 1;
+  }
+  .contact-list a {
+    padding: 5px;
+  }
+}
