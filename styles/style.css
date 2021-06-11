@@ -5,45 +5,73 @@
 .grid-container {
     display: grid;
     grid-template-areas: "header header header header" "nav nav nav nav" "main main main main " "footer footer footer footer";
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    /* grid-template-columns: repeat(4, 1fr); */
-    grid-template-rows: repeat(4, .5fr, .5fr, 2.5fr, .5fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(100x, 1fr)); */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr, 1fr, 2fr, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
 
-
-/* Style the top navigation bar */
-
 header {
     grid-area: header;
+    grid-column: 1 / 4;
+    grid-row: 1;
     display: block;
-    text-align: center;
 }
 
 .topnav {
     grid-area: nav;
-    overflow: hidden;
-    background-color: #333;
-}
-
-
-/* Style the topnav links */
-
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 5px 16px;
-    text-decoration: none;
+    grid-column: 1 / 4;
+    grid-row: 2;
 }
 
 .main {
     grid-area: main;
-    background-color: gold;
-    padding: 10px;
-    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 3/5;
+}
+
+.footer {
+    grid-area: footer;
+    grid-column: 1 / 4;
+    grid-row: 5/6;
+}
+
+
+/* classes */
+
+.topnav {
+    border: 4px solid blue;
+    background-color: white;
+    padding: 5px;
+    margin: 15px;
+}
+
+.topnav a {
+    border: 1px solid red;
+    float: left;
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.main {
+    grid-area: main;
+    padding: 20px;
+}
+
+#home-img {
+    max-height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: auto;
+    position: relative;
 }
 
 
