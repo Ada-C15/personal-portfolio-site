@@ -199,6 +199,10 @@
     /* about page */
     
     .about-page-bio {
+        margin-top: 10%;
+        margin: 2%;
+        padding: 2px;
         justify-content: center;
+        position: relative;
         font-size: 20px;
     }
