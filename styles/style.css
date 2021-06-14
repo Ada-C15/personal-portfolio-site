@@ -1,0 +1,26 @@
+body {
+  color: lightgrey;
+  background-image: url(../images/background.jpg);
+}
+
+header {
+  text-align: right;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+li {
+  grid-column: span 1;
+}
+
+img {
+  width: 75%;
+  border-radius: 20%;
+}
+
+article {
+  background-color: #52105f;
+}
