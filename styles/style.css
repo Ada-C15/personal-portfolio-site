@@ -1,0 +1,40 @@
+
+/* Chris suggests naming by role*  you can only have one unique id  perpage -- mores pecific will apply when dueling id is more specific than general html selections, class is in between id and say paragraph selectors */
+
+/* html elements */
+
+body {
+    font-family: sans-serif;
+    background-color: #cfd2e4;
+    width: 75% 
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+p {
+    line-height: 150%;
+    color: darkslategrey;
+}
+
+/* class names alphabetize */
+
+.page-title {
+    color: midnightblue;
+    font-size: 1.5rem;
+  }
+
+  .highlight{
+      background-color: yellow
+  }
+
+/* id */
+
+  #intro-paragraph {
+    font-family: Helvetica;
+
+
+  }
