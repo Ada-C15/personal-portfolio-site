@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <!-- this meta tag viewport makes sure website functions in both small and big devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | Karla Torres | Portfolio Website</title>
+        
+        <!-- normalize allows website to function on all browsers-->
+        <link rel="stylesheet"
+        href="http://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        
+        <!-- Using font-awesome website for icons-->
+        <link rel="stylesheet"
+        href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <!--Using google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&family=Viaoda+Libre&display=swap" rel="stylesheet">
+        
+        <!-- link to CSS folder and CSS file-->
+        <link rel="stylesheet" href="css/style.css">
+        
+        
+    </head>
+
+    <body>
+        <header >
+            <div class="logo">
+                <!-- <img src="img/About me Photo.JPG" alt=""> --> 
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+                <nav class="nav">
+                    <ul class="nav__list">
+
+
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <head>
+        
+<!--Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+            Welcome to <strong>Karla's Website</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Hello | Hola | Ciao | Bonjour | こんにちは | നമസ്കാരം | नमस्ते  </p>
+            <img src="img/About me Photo.JPG" alt="a picture of me" class="intro__img">
+            <div id="menu-outer">
+                <div class="table">
+                    <ul id="horizontal-list">
+                        <li class="nav-link"><a href="about.html">My About Page</a></li>
+                        <li class="favorite-link"><a href="portfolio.html">My Portfolio of Projects</a></li>
+                        <li class="photo-link"><a href="blog.html">My Photo Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        </head>
+
+<!-- My services  -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services"> What I do</h2>
+            <div class="services"><!--Helps create the three columns -->
+                <div class="service">
+                    <h3>Design & Development</h3>
+                    <p>Design and create customizable buttons.</p>
+                </div> <!-- / service  -->
+
+                <div class="service">
+                    <h3>Web Page Enhancements</h3>
+                    <p>Work with you until we find your </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Code Sparing for Prep Interviews</h3>
+                    <p>Focused primarely on Python and Javascript we round up and prep for interviews</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+<!--About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"> Photographer | Adventure Seeker | Nurturer | Health Fanatic | Computer Engineering Student</p>
+            <!-- <style>
+                body{
+                    background-image: url("img/Beach_waves_Shore.JPG");
+                }
+            </style> -->
+            <div class="about-me__body">
+                <p>I am a student of computer science. Diving into this field with high spirits and full of life!</p>
+            </div>
+
+            <img src="img/Everyday_Shots_Buttercup_inSunset.JPG" class="about-me__img">
+        </section>
+
+<!-- My work-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A few snap shots from scenic to abstract</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Everyday_Shots_Buttercup_inSunset.JPG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Everyday_Shots_Running_Bride_Groom_and_Chinese_Model_Botanical_Garden.JPG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Everyday_Shots_Resting_Boats_Against_Sunset.JPG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Working_in_dark_lightening.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Sunrise_Ocean_View.JPG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Docks_Mountin_View.JPG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 07 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Everyday_Shots_Cat_Under_Car.JPG" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 08 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/Everyday_Shots_Detaled_Wet_Leaves.JPG" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+
+
+<!--Footer -->
+        <footer class="footer_class" id="footer">
+            <!--Enter email Address -->
+            <a href="mailto:t.karla212@gmail.com" class="footer__link">Email Me</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                        href="https://www.linkedin.com/in/kjt2021/">
+                            <i class="fab fa-linkedin"></i> 
+                            Add me on Linkedin
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link"
+                        href="https://github.com/ktiktok96">
+                            <i class="fab fa-github"></i>
+                            Check out latest projects
+                    </a>
+                </li>                
+            </ul>
+        </footer>
+    </body>
+</html>
