@@ -1,0 +1,201 @@
+body  {
+    background-image: url(https://wallpapercave.com/wp/wp4047726.jpg);
+    background-size: auto;
+    /* background-color: #cccccc; */
+  }
+
+
+
+/* header {
+background-color: rgb(0, 0, 0);
+height: 100px;
+font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > section {
+    /* margin-right: 20px; */
+    margin: auto;
+    margin-left: 90%;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color:white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.nav-link-wrapper a:hover {
+    color: whitesmoke;
+}
+
+a {
+    color: #ffffff;
+    display:inline-block;
+    margin-top: 50px;
+}
+
+
+.title-name {
+    color: #ffffff;;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-kerning: normal;
+    margin-top: 500%;
+    margin: auto;
+    text-align: center;
+    text-shadow:2px 2px #818181;
+    padding-left: 70px;
+    padding-top: 10%;
+    
+}
+
+.title-description {
+    color: #858585;;
+    /* font-size: 100px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-kerning: normal;
+    /* margin-bottom: 0px;
+    margin-top: 200px; */
+    text-align: center;
+    /* text-shadow:1px 1px #cfcfcf; */
+    padding-left: 50px;
+    
+
+}
+
+.iframe-container-about {
+    width: 560px; /* you have to have a size or this method doesn't work */
+    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+
+    /* position: absolute; positions out of the flow, but according to the nearest parent */
+    top: 7; right: 0; /* confuse it i guess */
+    bottom: 5; left: 0;
+    margin: auto; /* make em equal */
+}
+
+.vimeo-player {
+    margin-top: 5%;
+}
+
+.about-description {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(146, 153, 153, 0.651);
+    width: 800px;
+    padding: 200x;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 21%;
+    border-radius: 25px;
+}
+
+.portfolio-description {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(146, 153, 153, 0.651);
+    width: 800px;
+    padding: 200x;
+    padding-top: 1%;
+    padding-left: .8%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 21%;
+    border-radius: 25px;
+}
+
+.iframe-container-home {
+    width: 560px; /* you have to have a size or this method doesn't work */
+    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+
+    position: absolute; /* positions out of the flow, but according to the nearest parent */
+    top: 5; right: 0; /* confuse it i guess */
+    bottom: 5; left: 0;
+    margin: auto; /* make em equal */
+}
+
+.badges {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.badges a {
+    /* text-decoration: none;
+    transition: color 0.5s; */
+    color: rgb(221, 206, 2);
+    text-shadow: 1px 1px #969696;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-size: 200%;
+
+    padding: 0px 20px;
+    padding-left: 5%;
+    word-wrap: normal;
+    display: inline-block;
+}
+
+.blog-title h2 {
+    padding: 30px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: white;
+    margin-top: auto;
+    margin-top: 3%;
+}
+
+.blog-title p {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card {
+background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+.blog-img {
+    width: 20%;
+    height: 30%;
+}
+
+
+
