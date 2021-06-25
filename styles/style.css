@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/********* styling for nav bar ********/
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+.navbar ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display:inline;
+    padding-inline-start: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} 
+.navbar li {
+    margin: 15px;
+    font-size: 1.2em;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10%;
+}
+.navbar a:hover {
+    background-color: blue;
+}
+
+@media screen and (max-width: 600px){
+    .navbar li {
+        font-size: 1em;
+    }
+
+}
+
+/************ styling for home page **********/
+#main-page {
+    margin: 0;
+    background-color: #a8a8c4;
+    text-align: center;
+
+}
+
+#intro-section h1{
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#intro-section h2 {
+    font-size: 3em;
+}
+
+#intro-section p {
+    font-size: 1.5em;
+    margin: 0 20% 5% 20%;
+}
+
+#intro-section a {
+    background-color: brown;
+    padding: 10px;
+    margin: auto;
+    font-size: 1.5em;
+    color: white;
+}
+#intro-section a:hover {
+    color: blue;
+}
+
+/* styling for social buttons*/
+#social-menu h1 {
+    margin-top: 50px;
+}
+a.icon {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.fa:hover {
+    color: blue;
+}
+
+/* styling for footer*/
+footer {
+    text-align: center;
+    background-color: black; 
+    padding: 10%;
+    margin-bottom: 0;
+    color: white;
+}
+
+/************ styling for About page **********/
+#about-me h1 {
+    text-align: center;
+    font-size: 3em;
+    color: royalblue;
+    font-weight: 5em;
+    font-family: fantasy;
+}
+#profile-photo {
+    max-width:300px;
+    height:auto;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 15%;
+}
+#about-me article {
+    font-size: 1.5em;
+    display: inline;
+    padding: 10%;
+}
+
+@media screen and (max-width: 700px) {
+    #about-me {
+        margin: 2%;
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #about-me {
+        margin: 0 10%;
+        padding: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #about-me {
+        margin: 0 10%;
+        padding: 5%;
+    }
+}
+#social-menu {
+    text-align: center;
+}
+
+
+/* styling for message box */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    width: 40%;
+    margin-left: 30%;
+    margin-left: 30%;
+}
+
+#contact-t {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/********* styling for portfolio page **********/
+#main-portfolio h2 {
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform:uppercase;
+    font-family: fantasy;
+}
+#main-portfolio a:hover {
+    color: red;
+}
+
+#boxes{
+    max-width: 1400px;
+    margin: 20px auto 0 auto;
+}
+
+.project{
+    background-color: pink;
+    padding: 10px;
+    margin-bottom: 20px;
+    flex-basis: 28%;
+    text-align: center;
+}
+
+.project:nth-child(1){background:#d8a2ad;}
+.project:nth-child(2){background: #c9d4ca;}
+.project:nth-child(3){background: #a8a8c4;}
+
+
+@media screen and (max-width: 700px) {
+    #main-portfolio h2 {
+        color: black;
+        font-size: 2em;
+    }
+    .project {
+        border-radius: 20%;
+        margin: 5%;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #main-portfolio h2 {
+        color: black;
+        font-size: 2em;
+    }
+    .project {
+        border-radius: 10%;
+        margin: 5% 10%;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+    .project {
+        border-radius: 20%;
+        margin: 1%
+
+    }
+}
+
+
+/********* styling for resume page **********/
+
+@media screen and (max-width: 600px) {
+    #resume-mainpage {
+        margin: 5%;
+    }
+}
+@media screen and (min-width: 600px) {
+    #resume-mainpage {
+        margin: 5% 10%; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #resume-mainpage {
+        margin: 5% 20%;
+    }
+}
+#edu span {
+    font-style: italic;
+}
+
+
+/********* styling for Blog page **********/
+#blog-main h2 {
+    background-color: brown;
+    padding: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    #blog-main {
+        margin: 5%;
+    }
+}
+@media screen and (min-width: 600px) {
+    #blog-main {
+        margin: 5% 10%; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #blog-main {
+        margin: 5% 20%;
+    }
+}

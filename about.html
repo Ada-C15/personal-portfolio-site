@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+        <title>Sumitra's Portfolio</title>
+        <link href="styles/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar" id="home-navbar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a class="current-page">ABOUT</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="resume.html">RESUME</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div id="about-me">
+                <h1>About Me</h1>
+                <img id="profile-photo" src="images/image1.png" alt="profile photo">
+                <article>I’m Sumitra Chhetri. I use she/her gender pronouns. 
+                    I’m learning object-oriented programming; Python, Javascript, 
+                    SQL; Agile development; developing, testing and debugging; problem solving, 
+                    and designing interfaces. Before Ada, I managed projects that supported diverse immigrant 
+                    and refugee communities in Oregon, developing programs and procedures using an equity lens. 
+                    I love meeting new people, stepping up to challenges, and applying my creative abilities. 
+                    I’m looking forward to having the opportunity to contribute and learn in a professional environment. 
+                    Outside of coding some of my hobbies include gardening, drawing and having conversation with people while having tea.</article>
+            </div>
+
+            <div class="container">
+                <h3 id="contact-t">Send me a message</h3>
+                <form data-netlify="true">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+        
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+        
+        
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Write a message.." style="height:200px"></textarea>
+        
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div id="social-menu">
+                <a href="https://www.linkedin.com/in/sumitrachhetri/" class="fa fa-linkedin-square icon" target="_blank"></a>
+                <a href="https://github.com/sumitrac" class="fa fa-github icon" target="_blank"></a>
+                <a href="https://twitter.com/sumitra_codes" class="fa fa-twitter icon" target="_blank"></a>
+                <a href="https://stackoverflow.com/users/13386995/sumic" class="fa fa-stack-overflow icon" target="_blank"></a>
+            </div>
+        </main>
+
+
+        <footer>
+            &copy; 2021 Sumitra Chhetri 
+        </footer>
+    </body>
+
+</html>
