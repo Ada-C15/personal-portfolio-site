@@ -1,0 +1,23 @@
+{
+  "name": "personal-portfolio-site",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d personal-portfolio-site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parseluni/personal-portfolio-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parseluni/personal-portfolio-site/issues"
+  },
+  "homepage": "https://github.com/Parseluni/personal-portfolio-site#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.0"
+  }
+}
