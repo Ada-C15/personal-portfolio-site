@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/index.css">
+    </head>
+    <body>
+        <header>
+            <div class="pageHeading">
+                <h1 id="mainHeading">Weather Report</h1>
+                <h2 id="cityHeading">Seattle</h2>
+            </div>
+            <h3 id="weatherSummary">Don't like the weather? Set it yourself!</h3>
+        </header>
+        <main>
+            <section class="citySection controls">
+                <input id="cityInput" type="text" value="Seattle" />
+                <button id="resetCityButton">RESET</button>
+            </section>
+            <section class="temperatureSection controls">
+                <div id="temperatureContent">
+                    <img id= "tempIcon" src="./images/thermometer.png" />
+                    <span id="temperatureText" class="orange">70</span>
+                    <div class="temperatureControls">
+                        <button class="control" id="increaseTemp">⬆</button>
+                        <button class="control" id="decreaseTemp">⬇</button>
+                    </div>
+                </div>
+            </section>
+            <section class="skySection controls">
+                <select id="skySelect">
+                    <option>Sunny</option>
+                    <option>Cloudy</option>
+                    <option>Rain</option>
+                    <option>Snow</option>
+                    <option>Storm</option>
+                </select>
+            </section>
+            <div class="imageContainer">
+                <div class="sky">
+                    <img id="skyImage" src="./images/sunny-sky.jpg" />
+                </div>
+                <div class="landscape">
+                    <img id="landscapeImage" src="./images/grassy-landscape.jpg" />
+                </div>
+            </div>
+        </main>
+        <script src="./scripts/index.js" async defer></script>
+    </body>
+</html>
