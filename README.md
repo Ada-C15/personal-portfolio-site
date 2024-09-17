@@ -1,4 +1,5 @@
 # Personal Portfolio Site
+Site link: https://laurencovington.github.io/personal-portfolio-site/ - 10/13/21
 
 ## Introduction
 

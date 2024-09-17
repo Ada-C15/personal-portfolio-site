@@ -1,0 +1,105 @@
+/* HOME PAGE STYLINGS */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C0CAAD; /*C0CAAD 9DA9A0 3C3744 B26E63 CEC075*/
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+}
+
+footer {
+    background-color: #3C3744;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1536859355448-76f92ebdc33d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-position: center center;
+    color: #B26E63; /* added this line to address photo opacity issue */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6; /* overlay, closer to 1, closer to black */
+}
+
+header * { /* offset overlay effect above: all elements on header */
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+header p {
+    font-size: 30px;
+    margin: 0;
+}
+
+nav {
+    background-color: #CEC075;
+    color: #3C3744; /* black coffee font */
+    display: flex;
+    justify-content: flex-end; /* push nav buttons to far right */
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #3C3744;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 810px;
+    margin: 20px auto 0;
+}
+
+.project {
+    margin: 10px;
+    max-width: 250px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.project p {
+    font-size: 18px;
+    margin-top: 10px;
+}
